@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class MyBackgroundDelegate;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) MyBackgroundDelegate *backgroundDelegate;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MyBackgroundDelegate.h"
 
 @implementation AppDelegate
 
@@ -35,12 +36,45 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    [self loadData];
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler
+{
+    NSURLSessionConfiguration *backgroundConfigObject = [NSURLSessionConfiguration backgroundSessionConfiguration: identifier];
+    
+    NSURLSession *backgroundSession = [NSURLSession sessionWithConfiguration: backgroundConfigObject delegate: self.mySessionDelegate delegateQueue: [NSOperationQueue mainQueue]];
+    
+    NSLog(@"Rejoining session %@\n", identifier);
+    
+    [ self.backgroundDelegate addCompletionHandler: completionHandler forSession: identifier];
+}
+
+- (void) loadData
+{
+    NSURLSession *delegateFreeSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate: nil delegateQueue: [NSOperationQueue mainQueue]];
+    [[delegateFreeSession dataTaskWithURL: [NSURL URLWithString: @"http://api.stackoverflow.com/1.1/questions?sort=creation&tagged=iphone"]
+                        completionHandler:^(NSData *data, NSURLResponse *response,
+                                            NSError *error) {
+                            NSLog(@"Got response %@ with error %@.\n", response, error);
+                            NSLog(@"DATA:\n%@\nEND DATA\n",
+                                  [[NSString alloc] initWithData: data
+                                                        encoding: NSUTF8StringEncoding]);
+                        }] resume];
+
+}
+
+- (void) setupBackgroundURLSession
+{
+    NSURLSessionConfiguration *backgroundConfigObject = [NSURLSessionConfiguration backgroundSessionConfiguration: @"myBackgroundSessionIdentifier"];
+    NSURLSession *backgroundSession = [NSURLSession sessionWithConfiguration: backgroundConfigObject delegate: self delegateQueue: [NSOperationQueue mainQueue]];
+    
 }
 
 @end
