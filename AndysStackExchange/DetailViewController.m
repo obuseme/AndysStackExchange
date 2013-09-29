@@ -8,7 +8,9 @@
 
 #import "DetailViewController.h"
 
-@interface DetailViewController ()
+@interface DetailViewController () {
+    UIDynamicAnimator *a;
+}
 - (void)configureView;
 @end
 
@@ -33,6 +35,13 @@
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
+
+    a = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
+    UIGravityBehavior *g = [[UIGravityBehavior alloc] initWithItems:@[self.detailDescriptionLabel]];
+    UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[self.detailDescriptionLabel]];
+    collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
+    [a addBehavior:g];
+    [a addBehavior:collisionBehavior];
 }
 
 - (void)viewDidLoad

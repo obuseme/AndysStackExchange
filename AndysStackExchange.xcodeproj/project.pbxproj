@@ -23,6 +23,7 @@
 		230C383817F1200700E47250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 230C383617F1200700E47250 /* InfoPlist.strings */; };
 		230C383A17F1200700E47250 /* AndysStackExchangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C383917F1200700E47250 /* AndysStackExchangeTests.m */; };
 		230C384517F26F4A00E47250 /* MyBackgroundDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C384417F26F4A00E47250 /* MyBackgroundDelegate.m */; };
+		230C384A17F8603F00E47250 /* TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 230C384917F8603F00E47250 /* TableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		230C383917F1200700E47250 /* AndysStackExchangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndysStackExchangeTests.m; sourceTree = "<group>"; };
 		230C384317F26F4A00E47250 /* MyBackgroundDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBackgroundDelegate.h; sourceTree = "<group>"; };
 		230C384417F26F4A00E47250 /* MyBackgroundDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBackgroundDelegate.m; sourceTree = "<group>"; };
+		230C384917F8603F00E47250 /* TableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableView.xib; path = ../TableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				230C382417F1200700E47250 /* DetailViewController.m */,
 				230C384317F26F4A00E47250 /* MyBackgroundDelegate.h */,
 				230C384417F26F4A00E47250 /* MyBackgroundDelegate.m */,
+				230C384917F8603F00E47250 /* TableView.xib */,
 				230C382617F1200700E47250 /* Images.xcassets */,
 				230C381217F1200700E47250 /* Supporting Files */,
 			);
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				230C382717F1200700E47250 /* Images.xcassets in Resources */,
+				230C384A17F8603F00E47250 /* TableView.xib in Resources */,
 				230C381617F1200700E47250 /* InfoPlist.strings in Resources */,
 				230C381F17F1200700E47250 /* Main.storyboard in Resources */,
 			);

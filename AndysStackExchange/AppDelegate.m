@@ -17,6 +17,8 @@
     
     // Override point for customization after application launch.
     [self setupBackgroundURLSession];
+
+    [self loadData:nil];
     return YES;
 }
 							
@@ -77,7 +79,7 @@
                             
                             [UIApplication sharedApplication].applicationIconBadgeNumber = 1;
                             
-                            completionHandler(UIBackgroundFetchResultNewData);
+                            if (completionHandler) completionHandler(UIBackgroundFetchResultNewData);
                         }] resume];
 
 }
