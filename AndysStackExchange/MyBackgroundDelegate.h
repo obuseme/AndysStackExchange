@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MyBackgroundDelegate : NSObject
+typedef void (^CompletionHandlerType)();
+
+@interface MyBackgroundDelegate : NSObject <NSURLSessionDelegate>
+
+@property NSMutableDictionary *completionHandlerDictionary;
+@property NSURLSession *backgroundSession;
+
+- (void) addCompletionHandler: (CompletionHandlerType) handler forSession: (NSString *)identifier;
+- (void) callCompletionHandlerForSession: (NSString *)identifier;
+- (void) setup;
 
 @end

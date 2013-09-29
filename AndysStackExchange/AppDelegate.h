@@ -15,4 +15,6 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) MyBackgroundDelegate *backgroundDelegate;
 
+@property (strong, nonatomic) NSArray *posts;
+
 @end

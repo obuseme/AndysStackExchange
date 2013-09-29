@@ -22,6 +22,7 @@
 		230C383017F1200700E47250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230C380F17F1200700E47250 /* UIKit.framework */; };
 		230C383817F1200700E47250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 230C383617F1200700E47250 /* InfoPlist.strings */; };
 		230C383A17F1200700E47250 /* AndysStackExchangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C383917F1200700E47250 /* AndysStackExchangeTests.m */; };
+		230C384517F26F4A00E47250 /* MyBackgroundDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C384417F26F4A00E47250 /* MyBackgroundDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		230C383517F1200700E47250 /* AndysStackExchangeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AndysStackExchangeTests-Info.plist"; sourceTree = "<group>"; };
 		230C383717F1200700E47250 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		230C383917F1200700E47250 /* AndysStackExchangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndysStackExchangeTests.m; sourceTree = "<group>"; };
+		230C384317F26F4A00E47250 /* MyBackgroundDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBackgroundDelegate.h; sourceTree = "<group>"; };
+		230C384417F26F4A00E47250 /* MyBackgroundDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBackgroundDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 		230C381117F1200700E47250 /* AndysStackExchange */ = {
 			isa = PBXGroup;
 			children = (
+				230C384617F65FB900E47250 /* iPad */,
 				230C381A17F1200700E47250 /* AppDelegate.h */,
 				230C381B17F1200700E47250 /* AppDelegate.m */,
 				230C381D17F1200700E47250 /* Main.storyboard */,
@@ -122,6 +126,8 @@
 				230C382117F1200700E47250 /* MasterViewController.m */,
 				230C382317F1200700E47250 /* DetailViewController.h */,
 				230C382417F1200700E47250 /* DetailViewController.m */,
+				230C384317F26F4A00E47250 /* MyBackgroundDelegate.h */,
+				230C384417F26F4A00E47250 /* MyBackgroundDelegate.m */,
 				230C382617F1200700E47250 /* Images.xcassets */,
 				230C381217F1200700E47250 /* Supporting Files */,
 			);
@@ -155,6 +161,13 @@
 				230C383617F1200700E47250 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		230C384617F65FB900E47250 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +217,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Andrew Obusek";
 				TargetAttributes = {
+					230C380717F1200700E47250 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					230C382B17F1200700E47250 = {
 						TestTargetID = 230C380717F1200700E47250;
 					};
@@ -257,6 +277,7 @@
 				230C381C17F1200700E47250 /* AppDelegate.m in Sources */,
 				230C382217F1200700E47250 /* MasterViewController.m in Sources */,
 				230C381817F1200700E47250 /* main.m in Sources */,
+				230C384517F26F4A00E47250 /* MyBackgroundDelegate.m in Sources */,
 				230C382517F1200700E47250 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,7 +408,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndysStackExchange/AndysStackExchange-Prefix.pch";
 				INFOPLIST_FILE = "AndysStackExchange/AndysStackExchange-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -400,7 +423,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndysStackExchange/AndysStackExchange-Prefix.pch";
 				INFOPLIST_FILE = "AndysStackExchange/AndysStackExchange-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -466,6 +491,7 @@
 				230C383F17F1200700E47250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		230C384017F1200700E47250 /* Build configuration list for PBXNativeTarget "AndysStackExchangeTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +500,7 @@
 				230C384217F1200700E47250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

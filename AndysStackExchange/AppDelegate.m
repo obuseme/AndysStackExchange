@@ -13,7 +13,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
+    
     // Override point for customization after application launch.
+    [self setupBackgroundURLSession];
     return YES;
 }
 							
@@ -36,8 +39,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    [self loadData];
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
@@ -45,35 +48,45 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-- (void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler
 {
-    NSURLSessionConfiguration *backgroundConfigObject = [NSURLSessionConfiguration backgroundSessionConfiguration: identifier];
-    
-    NSURLSession *backgroundSession = [NSURLSession sessionWithConfiguration: backgroundConfigObject delegate: self.mySessionDelegate delegateQueue: [NSOperationQueue mainQueue]];
-    
-    NSLog(@"Rejoining session %@\n", identifier);
-    
-    [ self.backgroundDelegate addCompletionHandler: completionHandler forSession: identifier];
+    [self loadData:completionHandler];
+    completionHandler(UIBackgroundFetchResultNoData);
+    NSLog(@"Performed fetch at %@", [NSDate date]);
 }
 
-- (void) loadData
+- (void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler
+{
+    NSLog(@"handleEventsForBackgroundURLSession");
+}
+
+- (void) loadData:(void (^)(UIBackgroundFetchResult result))completionHandler
 {
     NSURLSession *delegateFreeSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate: nil delegateQueue: [NSOperationQueue mainQueue]];
     [[delegateFreeSession dataTaskWithURL: [NSURL URLWithString: @"http://api.stackoverflow.com/1.1/questions?sort=creation&tagged=iphone"]
                         completionHandler:^(NSData *data, NSURLResponse *response,
                                             NSError *error) {
                             NSLog(@"Got response %@ with error %@.\n", response, error);
-                            NSLog(@"DATA:\n%@\nEND DATA\n",
-                                  [[NSString alloc] initWithData: data
-                                                        encoding: NSUTF8StringEncoding]);
+//                            NSLog(@"DATA:\n%@\nEND DATA\n", [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding]);
+                            
+                            NSError *e = nil;
+                            id json = [NSJSONSerialization JSONObjectWithData: data options: NSJSONReadingMutableContainers error: &e];
+                            self.posts = [json objectForKey:@"questions"];
+    
+                            [[NSNotificationCenter defaultCenter] postNotificationName:@"DataRefreshed" object:nil];
+                            
+                            [UIApplication sharedApplication].applicationIconBadgeNumber = 1;
+                            
+                            completionHandler(UIBackgroundFetchResultNewData);
                         }] resume];
 
 }
 
 - (void) setupBackgroundURLSession
 {
-    NSURLSessionConfiguration *backgroundConfigObject = [NSURLSessionConfiguration backgroundSessionConfiguration: @"myBackgroundSessionIdentifier"];
-    NSURLSession *backgroundSession = [NSURLSession sessionWithConfiguration: backgroundConfigObject delegate: self delegateQueue: [NSOperationQueue mainQueue]];
+    self.backgroundDelegate = [[MyBackgroundDelegate alloc] init];
+    [self.backgroundDelegate setup];
+    [self.backgroundDelegate.backgroundSession downloadTaskWithURL:[NSURL URLWithString:@"http://api.stackoverflow.com/1.1/questions?sort=creation&tagged=iphone"]];
     
 }
 
