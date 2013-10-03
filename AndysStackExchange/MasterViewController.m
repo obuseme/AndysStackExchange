@@ -13,7 +13,7 @@
 #import "AppDelegate.h"
 
 @interface MasterViewController () {
-    NSMutableArray *_objects;
+    NSArray *_objects;
 }
 @end
 
@@ -30,6 +30,7 @@
                                              selector:@selector(dataRefreshed:)
                                                  name:@"DataRefreshed"
                                                object:nil];
+    _objects = ((AppDelegate *)[UIApplication sharedApplication].delegate).posts;
     [super viewDidLoad];
 }
 
@@ -40,6 +41,7 @@
 
 - (void) dataRefreshed:(NSNotification *) notification
 {
+    _objects = ((AppDelegate *)[UIApplication sharedApplication].delegate).posts;
     [self.tableView reloadData];
 }
 
@@ -59,7 +61,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    NSDictionary *object = ((AppDelegate *)[UIApplication sharedApplication].delegate).posts[indexPath.row];
+    NSDictionary *object = _objects[indexPath.row];
     cell.textLabel.text = [object objectForKey:@"title"];
     return cell;
 }

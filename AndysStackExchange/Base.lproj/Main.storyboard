@@ -40,10 +40,11 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Ah7-4n-0Wa" kind="push" id="sBr-tn-nYp"/>
+                                            <segue destination="Ah7-4n-0Wa" kind="push" identifier="showDetail" id="sBr-tn-nYp"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <sections/>
                                 <connections>
                                     <outlet property="dataSource" destination="1RD-pj-RxL" id="tiQ-rx-S5E"/>
                                     <outlet property="delegate" destination="1RD-pj-RxL" id="OOq-JG-3Mr"/>
@@ -76,6 +77,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="drq-4K-f9l">
+                                <rect key="frame" x="20" y="124" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Snap">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="snap:" destination="Ah7-4n-0Wa" eventType="touchUpInside" id="H00-gD-DHW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

@@ -33,7 +33,7 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        self.detailDescriptionLabel.text = [self.detailItem objectForKey:@"title"];
     }
 
     a = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
@@ -55,6 +55,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)snap:(id)sender
+{
+    UISnapBehavior *s = [[UISnapBehavior alloc] initWithItem:self.detailDescriptionLabel snapToPoint:self.view.center];
+    [a addBehavior:s];
 }
 
 @end
