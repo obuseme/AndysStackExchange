@@ -21,9 +21,10 @@
 		230C382F17F1200700E47250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230C380B17F1200700E47250 /* Foundation.framework */; };
 		230C383017F1200700E47250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230C380F17F1200700E47250 /* UIKit.framework */; };
 		230C383817F1200700E47250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 230C383617F1200700E47250 /* InfoPlist.strings */; };
-		230C383A17F1200700E47250 /* AndysStackExchangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C383917F1200700E47250 /* AndysStackExchangeTests.m */; };
-		230C384517F26F4A00E47250 /* MyBackgroundDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C384417F26F4A00E47250 /* MyBackgroundDelegate.m */; };
 		230C384A17F8603F00E47250 /* TableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 230C384917F8603F00E47250 /* TableView.xib */; };
+		23AED89617FE648A0039F02C /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AED88F17FE648A0039F02C /* libOCMock.a */; };
+		23AED89917FE66930039F02C /* MasterViewController+private.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AED89817FE66930039F02C /* MasterViewController+private.m */; };
+		23EE25B817FE5F060089E551 /* MasterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +58,17 @@
 		230C382D17F1200700E47250 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		230C383517F1200700E47250 /* AndysStackExchangeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AndysStackExchangeTests-Info.plist"; sourceTree = "<group>"; };
 		230C383717F1200700E47250 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		230C383917F1200700E47250 /* AndysStackExchangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndysStackExchangeTests.m; sourceTree = "<group>"; };
-		230C384317F26F4A00E47250 /* MyBackgroundDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBackgroundDelegate.h; sourceTree = "<group>"; };
-		230C384417F26F4A00E47250 /* MyBackgroundDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBackgroundDelegate.m; sourceTree = "<group>"; };
 		230C384917F8603F00E47250 /* TableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableView.xib; path = ../TableView.xib; sourceTree = "<group>"; };
+		23AED88F17FE648A0039F02C /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		23AED89017FE648A0039F02C /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		23AED89117FE648A0039F02C /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		23AED89217FE648A0039F02C /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		23AED89317FE648A0039F02C /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		23AED89417FE648A0039F02C /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		23AED89517FE648A0039F02C /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		23AED89717FE66930039F02C /* MasterViewController+private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MasterViewController+private.h"; sourceTree = "<group>"; };
+		23AED89817FE66930039F02C /* MasterViewController+private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MasterViewController+private.m"; sourceTree = "<group>"; };
+		23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				230C382E17F1200700E47250 /* XCTest.framework in Frameworks */,
+				23AED89617FE648A0039F02C /* libOCMock.a in Frameworks */,
 				230C383017F1200700E47250 /* UIKit.framework in Frameworks */,
 				230C382F17F1200700E47250 /* Foundation.framework in Frameworks */,
 			);
@@ -109,6 +118,7 @@
 		230C380A17F1200700E47250 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23AED88E17FE648A0039F02C /* OCMock */,
 				230C380B17F1200700E47250 /* Foundation.framework */,
 				230C380D17F1200700E47250 /* CoreGraphics.framework */,
 				230C380F17F1200700E47250 /* UIKit.framework */,
@@ -124,12 +134,12 @@
 				230C381A17F1200700E47250 /* AppDelegate.h */,
 				230C381B17F1200700E47250 /* AppDelegate.m */,
 				230C381D17F1200700E47250 /* Main.storyboard */,
+				23AED89717FE66930039F02C /* MasterViewController+private.h */,
+				23AED89817FE66930039F02C /* MasterViewController+private.m */,
 				230C382017F1200700E47250 /* MasterViewController.h */,
 				230C382117F1200700E47250 /* MasterViewController.m */,
 				230C382317F1200700E47250 /* DetailViewController.h */,
 				230C382417F1200700E47250 /* DetailViewController.m */,
-				230C384317F26F4A00E47250 /* MyBackgroundDelegate.h */,
-				230C384417F26F4A00E47250 /* MyBackgroundDelegate.m */,
 				230C384917F8603F00E47250 /* TableView.xib */,
 				230C382617F1200700E47250 /* Images.xcassets */,
 				230C381217F1200700E47250 /* Supporting Files */,
@@ -151,7 +161,7 @@
 		230C383317F1200700E47250 /* AndysStackExchangeTests */ = {
 			isa = PBXGroup;
 			children = (
-				230C383917F1200700E47250 /* AndysStackExchangeTests.m */,
+				23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */,
 				230C383417F1200700E47250 /* Supporting Files */,
 			);
 			path = AndysStackExchangeTests;
@@ -171,6 +181,20 @@
 			children = (
 			);
 			name = iPad;
+			sourceTree = "<group>";
+		};
+		23AED88E17FE648A0039F02C /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				23AED88F17FE648A0039F02C /* libOCMock.a */,
+				23AED89017FE648A0039F02C /* NSNotificationCenter+OCMAdditions.h */,
+				23AED89117FE648A0039F02C /* OCMArg.h */,
+				23AED89217FE648A0039F02C /* OCMConstraint.h */,
+				23AED89317FE648A0039F02C /* OCMock.h */,
+				23AED89417FE648A0039F02C /* OCMockObject.h */,
+				23AED89517FE648A0039F02C /* OCMockRecorder.h */,
+			);
+			path = OCMock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,10 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AED89917FE66930039F02C /* MasterViewController+private.m in Sources */,
 				230C381C17F1200700E47250 /* AppDelegate.m in Sources */,
 				230C382217F1200700E47250 /* MasterViewController.m in Sources */,
 				230C381817F1200700E47250 /* main.m in Sources */,
-				230C384517F26F4A00E47250 /* MyBackgroundDelegate.m in Sources */,
 				230C382517F1200700E47250 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				230C383A17F1200700E47250 /* AndysStackExchangeTests.m in Sources */,
+				23EE25B817FE5F060089E551 /* MasterViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +435,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndysStackExchange/AndysStackExchange-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "AndysStackExchange/AndysStackExchange-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +454,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndysStackExchange/AndysStackExchange-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "AndysStackExchange/AndysStackExchange-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,12 +469,14 @@
 		230C384117F1200700E47250 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AndysStackExchange.app/AndysStackExchange";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/obusek/Documents/AndysStackExchange,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndysStackExchange/AndysStackExchange-Prefix.pch";
@@ -450,9 +484,28 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}\"/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "AndysStackExchangeTests/AndysStackExchangeTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/obusek/Documents/AndysStackExchange/OCMock,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"${SRCROOT}/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/**";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -460,18 +513,39 @@
 		230C384217F1200700E47250 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AndysStackExchange.app/AndysStackExchange";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/Users/obusek/Documents/AndysStackExchange,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndysStackExchange/AndysStackExchange-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}\"/**",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "AndysStackExchangeTests/AndysStackExchangeTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/obusek/Documents/AndysStackExchange/OCMock,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"${SRCROOT}/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/**";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

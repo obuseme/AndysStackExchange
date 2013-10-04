@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "MyBackgroundDelegate.h"
 
 @implementation AppDelegate
 
@@ -15,9 +14,6 @@
 {
     [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
     
-    // Override point for customization after application launch.
-    [self setupBackgroundURLSession];
-
     [self loadData:nil];
     return YES;
 }
@@ -82,14 +78,6 @@
                             if (completionHandler) completionHandler(UIBackgroundFetchResultNewData);
                         }] resume];
 
-}
-
-- (void) setupBackgroundURLSession
-{
-    self.backgroundDelegate = [[MyBackgroundDelegate alloc] init];
-    [self.backgroundDelegate setup];
-    [self.backgroundDelegate.backgroundSession downloadTaskWithURL:[NSURL URLWithString:@"http://api.stackoverflow.com/1.1/questions?sort=creation&tagged=iphone"]];
-    
 }
 
 @end

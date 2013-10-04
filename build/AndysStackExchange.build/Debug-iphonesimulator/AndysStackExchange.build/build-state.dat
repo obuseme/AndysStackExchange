@@ -1,0 +1,421 @@
+TAndysStackExchange
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch.pch AndysStackExchange/AndysStackExchange-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MasterViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange normal x86_64
+cGenerateDSYMFile /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app.dSYM /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange
+cCompileStoryboard /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Base.lproj/Main.storyboard
+cCompileXIB /Users/obusek/Documents/AndysStackExchange/TableView.xib
+cCompileAssetCatalog /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Images.xcassets
+cCopyStringsFile /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/en.lproj/InfoPlist.strings AndysStackExchange/en.lproj/InfoPlist.strings
+cProcessInfoPlistFile /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/Info.plist /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Info.plist
+cTouch /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000521BCCE50000000000000176
+t1377553637
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000523A283100000000000003B5
+t1379543089
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000523A2834000000000000019E
+t1379543092
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000523A28350000000000445830
+t1379543093
+s4479024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000523A2836000000000088B570
+t1379543094
+s8959344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000523A28380000000001DB1C90
+t1379543096
+s31136912
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000523A28450000000000000AC9
+t1379543109
+s2761
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Info.plist
+c00000000524628390000000000000616
+t1380329529
+s1558
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Prefix.pch
+c000000005240E8870000000000000158
+t1379985543
+s344
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.m
+c0000000052482F450000000000001208
+t1380462405
+s4616
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Base.lproj/Main.storyboard
+c00000000524CC3060000000000001F12
+t1380762374
+s7954
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.m
+c00000000524839B9000000000000066A
+t1380465081
+s1642
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Images.xcassets
+c000000005240E8870000000000000088
+t1379985543
+s136
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MasterViewController.m
+c000000005248371E00000000000007F2
+t1380464414
+s2034
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.m
+c0000000052423947000000000000061D
+t1380071751
+s1565
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/en.lproj/InfoPlist.strings
+c000000005240E887000000000000002D
+t1379985543
+s45
+
+N/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/main.m
+c000000005240E8870000000000000160
+t1379985543
+s352
+
+N/Users/obusek/Documents/AndysStackExchange/TableView.xib
+c000000005248299100000000000006E5
+t1380460945
+s1765
+
+N/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AndysStackExchange.LinkFileList
+c00000000524CC7920000000000000325
+t1380763538
+s805
+
+N/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.o
+t1380763539
+s89500
+
+N/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.o
+t1380763539
+s55252
+
+N/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.o
+t1380763539
+s58084
+
+N/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.o
+t1380763539
+s25112
+
+N/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.o
+t1380763539
+s3924
+
+N/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/assetcatalog_dependencies.txt
+t1380763540
+s398
+
+N/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/assetcatalog_generated_info.plist
+t1380763540
+s525
+
+N/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app
+t1380763540
+s340
+
+N/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app.dSYM
+t2
+s0
+
+N/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange
+t1380763539
+s49376
+
+N/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/Base.lproj/Main.storyboardc
+t1380763540
+s238
+
+N/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/Info.plist
+t1380763540
+s1240
+
+N/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/PkgInfo
+t1380763540
+s8
+
+N/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/TableView.nib
+t1380763540
+s1627
+
+N/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/en.lproj/InfoPlist.strings
+t1380763539
+s42
+
+N/var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch.pch
+t1380763539
+s109784
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb3efc212fffcb741^2ffdc712fffcb741^---0#1#1#--18"Check dependencies36"0FF29209-4BAB-4F4A-B031-0DE2258DC30E-
+
+CCompileAssetCatalog /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Images.xcassets
+s402456339.662935
+e402456340.338053
+r1
+xCompileAssetCatalog
+x/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app
+x/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/LaunchImage-700-568h@2x.png
+o/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/Assets.car
+o/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"[1mCompileAssetCatalog[0m build/Debug-iphonesimulator/AndysStackExchange.app [1mAndysStackExchange/Images.xcassets[0m121"[1mCompileAssetCatalog[0m build/Debug-iphonesimulator/AndysStackExchange.app [1mAndysStackExchange/Images.xcassets[0mb7d0a913fffcb741^1a8b5614fffcb741^-426"/* com.apple.actool.compilation-results *//Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/LaunchImage-700-568h@2x.png/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/Assets.car/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Images.xcassets/0000000000000000^1271"[1mCompileAssetCatalog[0m build/Debug-iphonesimulator/AndysStackExchange.app [1mAndysStackExchange/Images.xcassets[0m    cd /Users/obusek/Documents/AndysStackExchange    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --target-device ipad --compress-pngs --compile /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Images.xcassets36"70350587-5653-4F42-A06A-479977AF8DB4-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402456339.522201
+e402456339.596257
+r1
+xCompileC
+xbuild/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.m
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.h
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.m241"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.o [1mAndysStackExchange/AppDelegate.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler56d38513fffcb741^7fa49813fffcb741^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.m0000000000000000^4007"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.o [1mAndysStackExchange/AppDelegate.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/obusek/Documents/AndysStackExchange    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=144 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-generated-files.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-own-target-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-all-target-headers.hmap -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-project-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources/x86_64 -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources -F/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator -include /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch -MMD -MT dependencies -MF /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.m -o /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.o36"D7F22E16-A433-4D04-83BC-2C9E42775C50-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402456339.522237
+e402456339.588772
+r1
+xCompileC
+xbuild/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.o
+x/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.m
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.m259"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.o [1mAndysStackExchange/DetailViewController.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2dd18513fffcb741^28ba9613fffcb741^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.m0000000000000000^4061"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.o [1mAndysStackExchange/DetailViewController.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/obusek/Documents/AndysStackExchange    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=144 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-generated-files.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-own-target-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-all-target-headers.hmap -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-project-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources/x86_64 -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources -F/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator -include /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch -MMD -MT dependencies -MF /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.d --serialize-diagnostics /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.dia -c /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.m -o /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.o36"0828C05A-0932-4536-A6E0-F298B1F84221-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MasterViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402456339.522205
+e402456339.587028
+r1
+xCompileC
+xbuild/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.o
+x/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MasterViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MasterViewController.m
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MasterViewController.h
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/DetailViewController.h
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MasterViewController.m259"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.o [1mAndysStackExchange/MasterViewController.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbad78513fffcb741^56479613fffcb741^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MasterViewController.m0000000000000000^4061"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.o [1mAndysStackExchange/MasterViewController.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/obusek/Documents/AndysStackExchange    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=144 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-generated-files.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-own-target-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-all-target-headers.hmap -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-project-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources/x86_64 -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources -F/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator -include /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch -MMD -MT dependencies -MF /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.d --serialize-diagnostics /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.dia -c /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MasterViewController.m -o /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.o36"4BBBED2D-0ABF-4BE0-9DCF-5C20201C61FF-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402456339.522247
+e402456339.563006
+r1
+xCompileC
+xbuild/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.o
+x/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.m
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.m259"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.o [1mAndysStackExchange/MyBackgroundDelegate.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbfd28513fffcb741^5c219013fffcb741^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.m0000000000000000^4061"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.o [1mAndysStackExchange/MyBackgroundDelegate.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/obusek/Documents/AndysStackExchange    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=144 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-generated-files.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-own-target-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-all-target-headers.hmap -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-project-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources/x86_64 -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources -F/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator -include /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch -MMD -MT dependencies -MF /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.d --serialize-diagnostics /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.dia -c /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/MyBackgroundDelegate.m -o /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.o36"B8C969D1-43C9-4F1F-A5AA-6E1A96E36B43-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CCompileC build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.o /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402456339.522206
+e402456339.555630
+r1
+xCompileC
+xbuild/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.o
+x/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/main.m
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/main.m227"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.o [1mAndysStackExchange/main.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler89d38513fffcb741^4f3d8e13fffcb741^---0#0#1#-19%DVTDocumentLocation2@84"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/main.m0000000000000000^3965"[1mCompileC[0m build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.o [1mAndysStackExchange/main.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/obusek/Documents/AndysStackExchange    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=144 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-generated-files.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-own-target-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-all-target-headers.hmap -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-project-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources/x86_64 -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources -F/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator -include /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch -MMD -MT dependencies -MF /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.dia -c /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/main.m -o /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.o36"A88077C9-E40E-48F9-8452-DE6ABDB3D9B8-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CCompileStoryboard /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Base.lproj/Main.storyboard
+s402456339.662928
+e402456340.662872
+r1
+xCompileStoryboard
+x/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"[1mCompileStoryboard[0m [1mAndysStackExchange/Base.lproj/Main.storyboard[0m79"[1mCompileStoryboard[0m [1mAndysStackExchange/Base.lproj/Main.storyboard[0mfad0a913fffcb741^07b3a914fffcb741^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Base.lproj/Main.storyboard0000000000000000^925"[1mCompileStoryboard[0m [1mAndysStackExchange/Base.lproj/Main.storyboard[0m    cd /Users/obusek/Documents/AndysStackExchange    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/Base.lproj/Main.storyboardc /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/Base.lproj/Main.storyboard36"2C728508-CE8C-46FE-B81E-B04FE3E5538B-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CCompileXIB /Users/obusek/Documents/AndysStackExchange/TableView.xib
+s402456339.662931
+e402456340.326334
+r1
+xCompileXIB
+x/Users/obusek/Documents/AndysStackExchange/TableView.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compiling /Users/obusek/Documents/AndysStackExchange/TableView.xib40"[1mCompileXIB[0m [1mTableView.xib[0m81d1a913fffcb741^158b5314fffcb741^---0#0#1#-19%DVTDocumentLocation2@72"file://localhost/Users/obusek/Documents/AndysStackExchange/TableView.xib0000000000000000^790"[1mCompileXIB[0m [1mTableView.xib[0m    cd /Users/obusek/Documents/AndysStackExchange    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/TableView.nib /Users/obusek/Documents/AndysStackExchange/TableView.xib36"BE91033B-B8E8-4C6A-93BC-E9F606649B4F-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CCopyStringsFile /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/en.lproj/InfoPlist.strings AndysStackExchange/en.lproj/InfoPlist.strings
+s402456339.662959
+e402456339.669471
+r1
+xCopyStringsFile
+x/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/en.lproj/InfoPlist.strings
+xAndysStackExchange/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy AndysStackExchange/en.lproj/InfoPlist.strings147"[1mCopyStringsFile[0m build/Debug-iphonesimulator/AndysStackExchange.app/en.lproj/InfoPlist.strings AndysStackExchange/en.lproj/InfoPlist.stringsb7d4a913fffcb741^d862ab13fffcb741^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/en.lproj/InfoPlist.strings0000000000000000^669"[1mCopyStringsFile[0m build/Debug-iphonesimulator/AndysStackExchange.app/en.lproj/InfoPlist.strings AndysStackExchange/en.lproj/InfoPlist.strings    cd /Users/obusek/Documents/AndysStackExchange    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/en.lproj -- AndysStackExchange/en.lproj/InfoPlist.strings36"0595FAF6-0505-4071-9142-7C2880C0A7B7-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CGenerateDSYMFile /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app.dSYM /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange
+s402456339.640716
+e402456339.654596
+r1
+xGenerateDSYMFile
+x/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app.dSYM
+x/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generate /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app.dSYM158"[1mGenerateDSYMFile[0m [1mbuild/Debug-iphonesimulator/AndysStackExchange.app.dSYM[0m build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchanged714a413fffcb741^bc93a713fffcb741^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app.dSYM00384432dfffdf42^753"[1mGenerateDSYMFile[0m [1mbuild/Debug-iphonesimulator/AndysStackExchange.app.dSYM[0m build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange    cd /Users/obusek/Documents/AndysStackExchange    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange -o /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app.dSYM36"90A60CDA-BE2B-4AA9-A479-B8EA2622171A-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CLd /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange normal x86_64
+s402456339.605267
+e402456339.632043
+r1
+xLd
+x/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange
+xnormal
+xx86_64
+d/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AndysStackExchange.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MasterViewController.o
+d/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/main.o
+d/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/MyBackgroundDelegate.o
+d/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/DetailViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange94"[1mLd[0m build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange normal x86_64d1039b13fffcb741^07cea113fffcb741^---0#0#1#--1509"[1mLd[0m build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange normal x86_64    cd /Users/obusek/Documents/AndysStackExchange    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator -F/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator -filelist /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AndysStackExchange.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/Objects-normal/x86_64/AndysStackExchange_dependency_info.dat -o /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/AndysStackExchange36"6F1DB3AE-5814-4C4F-BABA-DF20A35552CF-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CProcessInfoPlistFile /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/Info.plist /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Info.plist
+s402456340.670952
+e402456340.673951
+r1
+xProcessInfoPlistFile
+x/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/Info.plist
+x/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Process /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Info.plist147"[1mProcessInfoPlistFile[0m build/Debug-iphonesimulator/AndysStackExchange.app/Info.plist [1mAndysStackExchange/AndysStackExchange-Info.plist[0m17d4ab14fffcb741^5188ac14fffcb741^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Info.plist0000000000000000^1010"[1mProcessInfoPlistFile[0m build/Debug-iphonesimulator/AndysStackExchange.app/Info.plist [1mAndysStackExchange/AndysStackExchange-Info.plist[0m    cd /Users/obusek/Documents/AndysStackExchange    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Info.plist -genpkginfo /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/assetcatalog_generated_info.plist -o /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app/Info.plist36"AE7ECCB6-C48D-4124-A3AE-7EFBC3386A80-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CProcessPCH /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch.pch AndysStackExchange/AndysStackExchange-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s402456338.784763
+e402456339.513509
+r1
+xProcessPCH
+x/var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch.pch
+xAndysStackExchange/AndysStackExchange-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile AndysStackExchange/AndysStackExchange-Prefix.pch342"[1mProcessPCH[0m /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch.pch AndysStackExchange/AndysStackExchange-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5706c912fffcb741^79748313fffcb741^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Prefix.pch0000000000000000^4061"[1mProcessPCH[0m /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch.pch AndysStackExchange/AndysStackExchange-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/obusek/Documents/AndysStackExchange    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=144 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-generated-files.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-own-target-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-all-target-headers.hmap -iquote /Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/AndysStackExchange-project-headers.hmap -I/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources/x86_64 -I/Users/obusek/Documents/AndysStackExchange/build/AndysStackExchange.build/Debug-iphonesimulator/AndysStackExchange.build/DerivedSources -F/Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch.d -c /Users/obusek/Documents/AndysStackExchange/AndysStackExchange/AndysStackExchange-Prefix.pch -o /var/folders/qr/bjgl7qts3tnc6_j7fgwp30z00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/AndysStackExchange-Prefix-flyeivtbpltymqeswexaggkpciej/AndysStackExchange-Prefix.pch.pch36"CC8C1CF9-2E24-426D-9D0C-9A2ABBFB383B-
+b8F271786-EA01-4F77-A1E7-B0B42E01D58C
+
+CTouch /Users/obusek/Documents/AndysStackExchange/build/Debug-iphonesimulator/AndysStackExchange.app
+r0
+
