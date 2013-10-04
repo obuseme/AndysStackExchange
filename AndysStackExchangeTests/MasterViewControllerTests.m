@@ -31,13 +31,13 @@
 
 - (void) testPrepareForSegue
 {
-    OCMockObject *mockSegue = [OCMockObject mockForClass:[UIStoryboardSegue class]];
-    [[[mockSegue stub] andReturn:@"showDetail"] identifier];
-    [[mockSegue expect] destinationViewController];
-    
-    [toTest prepareForSegue:((UIStoryboardSegue *)mockSegue) sender:nil];
-    
-    [mockSegue verify];
+//    OCMockObject *mockSegue = [OCMockObject mockForClass:[UIStoryboardSegue class]];
+//    [[[mockSegue stub] andReturn:@"showDetail"] identifier];
+//    [[mockSegue expect] destinationViewController];
+//    
+//    [toTest prepareForSegue:((UIStoryboardSegue *)mockSegue) sender:nil];
+//    
+//    [mockSegue verify];
 }
 
 @end
