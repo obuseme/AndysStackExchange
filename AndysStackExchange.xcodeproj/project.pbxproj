@@ -492,7 +492,7 @@
 				INFOPLIST_FILE = "AndysStackExchangeTests/AndysStackExchangeTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/obusek/Documents/AndysStackExchange/OCMock,
+					"\"${SRCROOT}/OCMock\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -532,7 +532,7 @@
 				INFOPLIST_FILE = "AndysStackExchangeTests/AndysStackExchangeTests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/obusek/Documents/AndysStackExchange/OCMock,
+					"\"${SRCROOT}/OCMock\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
