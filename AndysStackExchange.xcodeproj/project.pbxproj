@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2307685E17FF0ED000C5FB9A /* MasterViewController+private.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AED89817FE66930039F02C /* MasterViewController+private.m */; };
 		230C380C17F1200700E47250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230C380B17F1200700E47250 /* Foundation.framework */; };
 		230C380E17F1200700E47250 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230C380D17F1200700E47250 /* CoreGraphics.framework */; };
 		230C381017F1200700E47250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230C380F17F1200700E47250 /* UIKit.framework */; };
@@ -316,6 +317,7 @@
 			files = (
 				23AED89A17FE7A8C0039F02C /* MasterViewController.m in Sources */,
 				23EE25B817FE5F060089E551 /* MasterViewControllerTests.m in Sources */,
+				2307685E17FF0ED000C5FB9A /* MasterViewController+private.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +489,7 @@
 					/Users/obusek/Documents/AndysStackExchange,
 				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndysStackExchange/AndysStackExchange-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -535,7 +537,7 @@
 					/Users/obusek/Documents/AndysStackExchange,
 				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndysStackExchange/AndysStackExchange-Prefix.pch";
 				HEADER_SEARCH_PATHS = (

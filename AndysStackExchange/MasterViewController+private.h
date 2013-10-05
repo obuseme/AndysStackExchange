@@ -10,5 +10,6 @@
 
 @interface MasterViewController (private)
 
+- (NSString *) getTitleForObject:(NSArray *) objects atIndex:(int)index;
 
 @end

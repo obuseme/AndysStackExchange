@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "MasterViewController.h"
+#import "MasterViewController+private.h"
 #import "OCMock.h"
 
 @interface MasterViewControllerTests : XCTestCase {
@@ -27,6 +28,15 @@
 - (void)tearDown
 {
     [super tearDown];
+}
+
+- (void) testGetTitleForObject
+{
+    NSString *sentTitle = @"Andy's Title";
+    NSDictionary *anObject = [NSDictionary dictionaryWithObjectsAndKeys:sentTitle, @"title", nil];
+    NSArray *objects = @[anObject];
+    NSString *returnedTitle = [toTest getTitleForObject:objects atIndex:0];
+    XCTAssertEqual(returnedTitle, sentTitle, @"Sent title did not equal returned title");
 }
 
 - (void) testPrepareForSegue

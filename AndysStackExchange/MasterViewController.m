@@ -60,8 +60,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    NSDictionary *object = _objects[indexPath.row];
-    cell.textLabel.text = [object objectForKey:@"title"];
+    cell.textLabel.text = [self getTitleForObject:_objects atIndex:indexPath.row];
     return cell;
 }
 

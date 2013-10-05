@@ -10,4 +10,9 @@
 
 @implementation MasterViewController (private)
 
+- (NSString *) getTitleForObject:(NSArray *) objects atIndex:(int)index
+{
+    return [objects[index] objectForKey:@"title"];
+}
+
 @end
