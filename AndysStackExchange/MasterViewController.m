@@ -10,9 +10,11 @@
 #import "MasterViewController+private.h"
 #import "DetailViewController.h"
 #import "AppDelegate.h"
+#import "Question.h"
 
 @interface MasterViewController () {
-    NSArray *_objects;
+    NSArray *items;
+    ItemsAPI *itemsAPI;
 }
 @end
 
@@ -25,11 +27,10 @@
 
 - (void)viewDidLoad
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(dataRefreshed:)
-                                                 name:@"DataRefreshed"
-                                               object:nil];
-    _objects = ((AppDelegate *)[UIApplication sharedApplication].delegate).posts;
+    itemsAPI = [[ItemsAPI alloc] init];
+    itemsAPI.delegate = self;
+    [itemsAPI loadItems];
+    
     [super viewDidLoad];
 }
 
@@ -38,9 +39,15 @@
     [super didReceiveMemoryWarning];
 }
 
+- (void) itemsLoaded:(NSArray *)pItems
+{
+    items = pItems;
+    [self.tableView reloadData];
+}
+
 - (void) dataRefreshed:(NSNotification *) notification
 {
-    _objects = ((AppDelegate *)[UIApplication sharedApplication].delegate).posts;
+    items = ((AppDelegate *)[UIApplication sharedApplication].delegate).posts;
     [self.tableView reloadData];
 }
 
@@ -53,14 +60,14 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [((AppDelegate *)[UIApplication sharedApplication].delegate).posts count];
+    return [items count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    cell.textLabel.text = [self getTitleForObject:_objects atIndex:indexPath.row];
+    cell.textLabel.text = [self getTitleForObject:items atIndex:indexPath.row];
     return cell;
 }
 
@@ -68,7 +75,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
+        NSDate *object = items[indexPath.row];
         [[segue destinationViewController] setDetailItem:object];
     }
 }

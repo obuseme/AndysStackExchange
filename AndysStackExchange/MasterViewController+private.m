@@ -7,12 +7,14 @@
 //
 
 #import "MasterViewController+private.h"
+#import "Question.h"
 
 @implementation MasterViewController (private)
 
 - (NSString *) getTitleForObject:(NSArray *) objects atIndex:(int)index
 {
-    return [objects[index] objectForKey:@"title"];
+    Question *aQ = objects[index];
+    return aQ.title;
 }
 
 @end

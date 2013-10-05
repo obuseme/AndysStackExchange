@@ -7,14 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "RestKitUtils.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
+    [RestKitUtils initializeObjectManager];
     
-    [self loadData:nil];
     return YES;
 }
 							
@@ -61,7 +62,7 @@
 - (void) loadData:(void (^)(UIBackgroundFetchResult result))completionHandler
 {
     NSURLSession *delegateFreeSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate: nil delegateQueue: [NSOperationQueue mainQueue]];
-    [[delegateFreeSession dataTaskWithURL: [NSURL URLWithString: @"http://api.stackoverflow.com/1.1/questions?sort=creation&tagged=iphone"]
+    [[delegateFreeSession dataTaskWithURL: [NSURL URLWithString: @"https://api.stackexchange.com/2.1/questions?order=desc&sort=creation&site=stackoverflow&tagged=iphone"]
                         completionHandler:^(NSData *data, NSURLResponse *response,
                                             NSError *error) {
                             NSLog(@"Got response %@ with error %@.\n", response, error);

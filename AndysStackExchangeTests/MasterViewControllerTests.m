@@ -10,6 +10,7 @@
 #import "MasterViewController.h"
 #import "MasterViewController+private.h"
 #import "OCMock.h"
+#import "Question.h"
 
 @interface MasterViewControllerTests : XCTestCase {
     MasterViewController *toTest;
@@ -33,8 +34,9 @@
 - (void) testGetTitleForObject
 {
     NSString *sentTitle = @"Andy's Title";
-    NSDictionary *anObject = [NSDictionary dictionaryWithObjectsAndKeys:sentTitle, @"title", nil];
-    NSArray *objects = @[anObject];
+    Question *aQ = [[Question alloc] init];
+    aQ.title = sentTitle;
+    NSArray *objects = @[aQ];
     NSString *returnedTitle = [toTest getTitleForObject:objects atIndex:0];
     XCTAssertEqual(returnedTitle, sentTitle, @"Sent title did not equal returned title");
 }

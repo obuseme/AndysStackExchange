@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ItemsAPI.h"
 
-@interface MasterViewController : UIViewController
+@interface MasterViewController : UIViewController <ItemsAPIDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
