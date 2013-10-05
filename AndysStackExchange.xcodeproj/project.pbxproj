@@ -28,6 +28,8 @@
 		23DEC23F1800597F0061BAB1 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC23E1800597F0061BAB1 /* Question.m */; };
 		23DEC245180059DE0061BAB1 /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC244180059DE0061BAB1 /* Items.m */; };
 		23DEC249180068130061BAB1 /* ItemsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC248180068130061BAB1 /* ItemsAPI.m */; };
+		23DEC24C1800808A0061BAB1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEC24B1800808A0061BAB1 /* SystemConfiguration.framework */; };
+		23DEC24E180080910061BAB1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEC24D180080910061BAB1 /* MobileCoreServices.framework */; };
 		23EE25B817FE5F060089E551 /* MasterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */; };
 		38383C6847354D6E809C4BF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 569F3F7B04F74C03A7884792 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -80,6 +82,8 @@
 		23DEC244180059DE0061BAB1 /* Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Items.m; sourceTree = "<group>"; };
 		23DEC247180068130061BAB1 /* ItemsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsAPI.h; sourceTree = "<group>"; };
 		23DEC248180068130061BAB1 /* ItemsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsAPI.m; sourceTree = "<group>"; };
+		23DEC24B1800808A0061BAB1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		23DEC24D180080910061BAB1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerTests.m; sourceTree = "<group>"; };
 		569F3F7B04F74C03A7884792 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9258C2D34A486A9C0B4B2C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23DEC24E180080910061BAB1 /* MobileCoreServices.framework in Frameworks */,
+				23DEC24C1800808A0061BAB1 /* SystemConfiguration.framework in Frameworks */,
 				230C380E17F1200700E47250 /* CoreGraphics.framework in Frameworks */,
 				230C381017F1200700E47250 /* UIKit.framework in Frameworks */,
 				230C380C17F1200700E47250 /* Foundation.framework in Frameworks */,
@@ -133,6 +139,8 @@
 		230C380A17F1200700E47250 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23DEC24D180080910061BAB1 /* MobileCoreServices.framework */,
+				23DEC24B1800808A0061BAB1 /* SystemConfiguration.framework */,
 				23AED88E17FE648A0039F02C /* OCMock */,
 				230C380B17F1200700E47250 /* Foundation.framework */,
 				230C380D17F1200700E47250 /* CoreGraphics.framework */,

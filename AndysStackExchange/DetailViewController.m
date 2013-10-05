@@ -35,7 +35,6 @@
     if (self.question) {
         self.detailDescriptionLabel.text = self.question.title;
     }
-
 }
 
 - (void)viewDidLoad
