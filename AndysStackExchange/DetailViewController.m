@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "Question.h"
 
 @interface DetailViewController () {
     UIDynamicAnimator *a;
@@ -18,12 +19,11 @@
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void)setQuestion:(Question *)newQuestion
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+    if (_question != newQuestion) {
+        _question = newQuestion;
         
-        // Update the view.
         [self configureView];
     }
 }
@@ -32,29 +32,21 @@
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem objectForKey:@"title"];
+    if (self.question) {
+        self.detailDescriptionLabel.text = self.question.title;
     }
 
-    a = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
-    UIGravityBehavior *g = [[UIGravityBehavior alloc] initWithItems:@[self.detailDescriptionLabel]];
-    UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[self.detailDescriptionLabel]];
-    collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
-    [a addBehavior:g];
-    [a addBehavior:collisionBehavior];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)snap:(id)sender
