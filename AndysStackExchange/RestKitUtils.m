@@ -8,6 +8,8 @@
 
 #import "RestKitUtils.h"
 #import <RestKit/RestKit.h>
+#import "User.h"
+#import "Question.h"
 
 @implementation RestKitUtils
 
@@ -25,7 +27,8 @@
     [client setDefaultHeader:@"Accept" value:RKMIMETypeJSON];
     
     // Initialize RestKit
-    [[RKObjectManager alloc] initWithHTTPClient:client];
+    RKObjectManager *objectManager = [[RKObjectManager alloc] initWithHTTPClient:client];
+
 }
 
 @end

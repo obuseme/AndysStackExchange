@@ -14,6 +14,7 @@
 
 @property (nonatomic, copy) NSString *userID;
 @property (nonatomic, copy) NSString *displayName;
+@property (nonatomic, copy) NSString *rep;
 
 + (RKObjectMapping *) objectMapping;
 

@@ -9,6 +9,7 @@
 #import "DetailViewController.h"
 #import "Question.h"
 #import "User.h"
+#import "ProfileViewController.h"
 
 @interface DetailViewController () {
     UIDynamicAnimator *a;
@@ -47,12 +48,22 @@
 
 - (void)configureView
 {
+    self.title = @"Question";
     if (self.question) {
         self.automaticallyAdjustsScrollViewInsets = NO;
         self.titleLabel.text = self.question.title;
         self.bodyLabel.text = self.question.body;
         self.questionScoreLabel.text = self.question.score;
         [self.ownerButton setTitle:self.question.owner.displayName forState:UIControlStateNormal];
+    }
+}
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showProfileForAsker"]) {
+        ProfileViewController *pvc = [segue destinationViewController];
+        pvc.userToShow = self.question.owner;
     }
 }
 

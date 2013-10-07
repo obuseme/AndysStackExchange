@@ -17,6 +17,7 @@
     [questionMapping addAttributeMappingsFromDictionary:@{
                                                           @"user_id" : @"userID",
                                                           @"display_name" : @"displayName",
+                                                          @"reputation" : @"rep",
                                                           }];
     return questionMapping;
 }

@@ -1,38 +1,34 @@
 //
-//  ItemsAPI.m
+//  UsersAPI.m
 //  AndysStackExchange
 //
-//  Created by Andrew Obusek on 10/5/13.
+//  Created by Andrew Obusek on 10/6/13.
 //  Copyright (c) 2013 Andrew Obusek. All rights reserved.
 //
 
-#import "ItemsAPI.h"
-#import "Question.h"
+#import "UserAPI.h"
 #import <RestKit/RestKit.h>
 #import "User.h"
 
-@implementation ItemsAPI
+@implementation UserAPI
 
-- (void) loadItems
+- (void) loadUser:(NSString *) userId
 {
     RKObjectManager *objectManager = [RKObjectManager sharedManager];
     
-    RKObjectMapping *itemsMapping = [Question objectMapping];
-    [itemsMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"owner" toKeyPath:@"owner" withMapping:[User objectMapping]]];
-    
-    RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:itemsMapping
+    //Possible opportunity to refactor setting the responseDescriptor out to when the RKObjectManager is initialized
+    RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:[User objectMapping]
                                                                                             method:RKRequestMethodGET
                                                                                        pathPattern:nil
                                                                                            keyPath:@"items"
                                                                                        statusCodes:[NSIndexSet indexSetWithIndex:200]];
     
-    //Possible opportunity to refactor setting the responseDescriptor out to when the RKObjectManager is initialized
     [objectManager addResponseDescriptor:responseDescriptor];
-    
-    [objectManager getObjectsAtPath:@"/2.1/questions?order=desc&sort=creation&site=stackoverflow&tagged=iphone&filter=withbody"
+
+    [objectManager getObjectsAtPath:[NSString stringWithFormat:@"/2.1/users/%@?site=stackoverflow", userId]
                          parameters:nil
                             success:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
-                                [self.delegate itemsLoaded:[[mappingResult dictionary] objectForKey:@"items" ]];
+                                [self.delegate userLoaded:[[[mappingResult dictionary] objectForKey:@"items" ] objectAtIndex:0]];
                                 [objectManager removeResponseDescriptor:responseDescriptor];
                             }
                             failure:^(RKObjectRequestOperation *operation, NSError *error) {
