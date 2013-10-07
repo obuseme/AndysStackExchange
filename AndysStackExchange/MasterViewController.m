@@ -12,6 +12,7 @@
 #import "AppDelegate.h"
 #import "Question.h"
 #import "QuestionCell.h"
+#import "ProfileViewController.h"
 
 @interface MasterViewController () {
     ItemsAPI *itemsAPI;
@@ -99,6 +100,9 @@
         DetailViewController *dvc = [segue destinationViewController];
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         [self prepareDetailControllerForSegue:dvc indexPath:indexPath questions:items];
+    } else if ([[segue identifier] isEqualToString:@"showAndysProfile"]) {
+        ProfileViewController *pvc = [segue destinationViewController];
+        pvc.userIdToShow = @"209867";
     }
 }
 

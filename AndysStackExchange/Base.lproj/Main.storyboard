@@ -79,7 +79,13 @@
                             <constraint firstItem="Sex-0A-nOr" firstAttribute="leading" secondItem="5w9-Cb-y0f" secondAttribute="leading" id="FCR-RV-G7Q"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Q5W-JO-jdL"/>
+                    <navigationItem key="navigationItem" id="Q5W-JO-jdL">
+                        <barButtonItem key="rightBarButtonItem" title="Andy's Profile" id="Gbl-IU-IzW">
+                            <connections>
+                                <segue destination="tu4-cj-kgJ" kind="push" identifier="showAndysProfile" id="vHR-bC-NIn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Sex-0A-nOr" id="BX7-nK-2zS"/>
                     </connections>
@@ -218,4 +224,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="vHR-bC-NIn"/>
+    </inferredMetricsTieBreakers>
 </document>

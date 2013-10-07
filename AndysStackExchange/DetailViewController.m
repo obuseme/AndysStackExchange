@@ -63,7 +63,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showProfileForAsker"]) {
         ProfileViewController *pvc = [segue destinationViewController];
-        pvc.userToShow = self.question.owner;
+        pvc.userIdToShow = self.question.owner.userID;
     }
 }
 

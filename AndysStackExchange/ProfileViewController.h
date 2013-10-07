@@ -16,6 +16,6 @@
 @property (nonatomic, strong) IBOutlet UILabel *displayNameLabel;
 @property (nonatomic, strong) IBOutlet UILabel *repTitleLabel;
 @property (nonatomic, strong) IBOutlet UILabel *repLabel;
-@property (nonatomic, strong) User *userToShow;
+@property (nonatomic, strong) NSString *userIdToShow;
 
 @end

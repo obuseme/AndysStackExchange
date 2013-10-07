@@ -16,6 +16,11 @@
 
 @property (weak) id<UserAPIDelegate> delegate;
 
+/**
+ Loads the detailed information for the specified user from the remote resource.  Upon completion the delegate method is called to pass the `User` object to the delegate.
+ 
+ @param userId The user id for the user's profile to load
+ */
 - (void) loadUser:(NSString *) userId;
 
 @end
