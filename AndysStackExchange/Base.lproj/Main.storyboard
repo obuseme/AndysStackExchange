@@ -133,7 +133,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQB-FC-jEw">
-                                        <rect key="frame" x="90" y="110" width="44" height="29"/>
+                                        <rect key="frame" x="90" y="112" width="210" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                         <state key="normal" title="Button">
@@ -156,6 +156,7 @@
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN"/>
                     <connections>
                         <outlet property="bodyLabel" destination="hrO-30-MWI" id="9Ne-vS-Omd"/>
+                        <outlet property="ownerButton" destination="dQB-FC-jEw" id="8pt-dT-hUg"/>
                         <outlet property="questionScoreLabel" destination="UTT-cV-3f8" id="qdw-lj-Kru"/>
                         <outlet property="titleLabel" destination="Lei-5M-9Gs" id="TRr-1G-JvT"/>
                     </connections>

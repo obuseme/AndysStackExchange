@@ -14,8 +14,9 @@
 
 @property (strong, nonatomic) Question *question;
 
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *bodyLabel;
-@property (weak, nonatomic) IBOutlet UILabel *questionScoreLabel;
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+@property (strong, nonatomic) IBOutlet UILabel *bodyLabel;
+@property (strong, nonatomic) IBOutlet UILabel *questionScoreLabel;
+@property (strong, nonatomic) IBOutlet UIButton *ownerButton;
 
 @end

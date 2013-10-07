@@ -8,6 +8,7 @@
 
 #import "DetailViewController.h"
 #import "Question.h"
+#import "User.h"
 
 @interface DetailViewController () {
     UIDynamicAnimator *a;
@@ -51,7 +52,7 @@
         self.titleLabel.text = self.question.title;
         self.bodyLabel.text = self.question.body;
         self.questionScoreLabel.text = self.question.score;
-
+        [self.ownerButton setTitle:self.question.owner.displayName forState:UIControlStateNormal];
     }
 }
 

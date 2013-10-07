@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class Items, RKObjectMapping;
+@class Items, RKObjectMapping, User;
 
 @interface Question : NSObject
 
@@ -16,6 +16,7 @@
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *body;
 @property (nonatomic, copy) NSString *score;
+@property (nonatomic, strong) User *owner;
 
 + (RKObjectMapping *) objectMapping;
 

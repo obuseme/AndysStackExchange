@@ -9,14 +9,18 @@
 #import "ItemsAPI.h"
 #import "Question.h"
 #import <RestKit/RestKit.h>
+#import "User.h"
 
 @implementation ItemsAPI
 
 - (void) loadItems
 {
     RKObjectManager *objectManager = [RKObjectManager sharedManager];
+    
+    RKObjectMapping *itemsMapping = [Question objectMapping];
+    [itemsMapping addPropertyMapping:[RKRelationshipMapping relationshipMappingFromKeyPath:@"owner" toKeyPath:@"owner" withMapping:[User objectMapping]]];
 
-    RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:[Question objectMapping]
+    RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:itemsMapping
                                                                                             method:RKRequestMethodGET
                                                                                        pathPattern:nil
                                                                                            keyPath:@"items"
