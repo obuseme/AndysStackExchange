@@ -27,8 +27,7 @@ Universal iOS app that loads most recent stackoverflow questions tagged with “
 
 ## Known Issues
 <ul>
-<li>UITableView on MasterViewController is only sized correctly on iPhone 5 and 5s</li>
 <li>UILabel for body text on DetailViewController is not given the correct height</li>
 <li>AutoLayout warnings that need to be resolved</li>
-<li>Width for UILabel in table cells on main page could be calculated more dynamically</li>
+<li>Width for UILabel in table cells on main page could be calculated more dynamically in order to better size the row height on orientation change</li>
 </ul>
