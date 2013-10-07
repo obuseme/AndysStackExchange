@@ -10,6 +10,9 @@
 
 @class Question;
 
+/**
+ Handles showing the detailed information for a question on stackexchange.com
+ */
 @interface DetailViewController : UIViewController
 
 @property (strong, nonatomic) Question *question;

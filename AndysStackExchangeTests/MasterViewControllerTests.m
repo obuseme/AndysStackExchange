@@ -42,6 +42,9 @@
     XCTAssertEqual(returnedTitle, sentTitle, @"Sent title did not equal returned title");
 }
 
+/**
+ Really just verifies that segues for specified identifiers are recognize and handled
+ */
 - (void) testPrepareForSegue
 {
     OCMockObject *mockSegue = [OCMockObject mockForClass:[UIStoryboardSegue class]];
@@ -51,6 +54,15 @@
     [toTest prepareForSegue:((UIStoryboardSegue *)mockSegue) sender:nil];
     
     [mockSegue verify];
+    
+
+    [[[mockSegue stub] andReturn:@"showAndysProfile"] identifier];
+    [[mockSegue expect] destinationViewController];
+    
+    [toTest prepareForSegue:((UIStoryboardSegue *)mockSegue) sender:nil];
+    
+    [mockSegue verify];
+
 }
 
 - (void) testAddPaddingToHeight

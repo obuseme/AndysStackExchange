@@ -68,17 +68,23 @@
     return [items count];
 }
 
+/**
+ Dynamically calculates the height for the row based on the current font size selected by the user in iOS7 settings.
+ */
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    //First: Convert the NSString to an NSAttributed string with the right font
     NSString *titleString = [self getTitleForObject:items atIndex:indexPath.row];
     UIFont *titleLabelFont =[UIFont preferredFontForTextStyle:UIFontTextStyleBody];
     NSAttributedString *attributedText = [[NSAttributedString alloc] initWithString:titleString attributes:@{NSFontAttributeName: titleLabelFont}];
     
+    //Second: Get CGRect that bounds the string.  Use the max float for the height because we want to determine how tall it is
     //Ya, 272 as a hard coded width is bad here, consider improving to dynamically get the current width of the label in this orientation
     CGRect rect = [attributedText boundingRectWithSize:(CGSize){272, CGFLOAT_MAX}
                                                options:NSStringDrawingUsesLineFragmentOrigin
                                                context:nil];
 
+    //Finally: Add padding to the height and return it!
     CGFloat PADDING_OUTER = 10;
     CGFloat totalHeight = [self heightWithPadding:rect paddingToAdd:PADDING_OUTER];
 

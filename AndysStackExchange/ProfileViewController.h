@@ -11,6 +11,12 @@
 
 @class User;
 
+/**
+ Handles showing the profile information for a user on stackexchange.com
+ 
+ Controller will attempt to load the detailed information for the specified 
+ userId
+ */
 @interface ProfileViewController : UIViewController <UserAPIDelegate>
 
 @property (nonatomic, strong) IBOutlet UILabel *displayNameLabel;
