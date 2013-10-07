@@ -14,17 +14,12 @@
 
 + (RKObjectMapping *) objectMapping
 {
-    
-    //        RKObjectMapping *itemsMapping = [RKObjectMapping mappingForClass:[Items class]];
-    //        [itemsMapping addAttributeMappingsFromDictionary:@{
-    //                                                          @"items" : @"items",
-    //                                                          }];
-    
-    
     RKObjectMapping *questionMapping = [RKObjectMapping mappingForClass:[Question class]];
     [questionMapping addAttributeMappingsFromDictionary:@{
                                                           @"question_id" : @"questionID",
                                                           @"title" : @"title",
+                                                          @"body" : @"body",
+                                                          @"score": @"score",
                                                           }];
     return questionMapping;
 }

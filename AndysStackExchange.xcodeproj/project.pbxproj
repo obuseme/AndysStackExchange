@@ -30,6 +30,7 @@
 		23DEC249180068130061BAB1 /* ItemsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC248180068130061BAB1 /* ItemsAPI.m */; };
 		23DEC24C1800808A0061BAB1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEC24B1800808A0061BAB1 /* SystemConfiguration.framework */; };
 		23DEC24E180080910061BAB1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEC24D180080910061BAB1 /* MobileCoreServices.framework */; };
+		23DEC251180082BE0061BAB1 /* QuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC250180082BE0061BAB1 /* QuestionCell.m */; };
 		23EE25B817FE5F060089E551 /* MasterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */; };
 		38383C6847354D6E809C4BF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 569F3F7B04F74C03A7884792 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -84,6 +85,8 @@
 		23DEC248180068130061BAB1 /* ItemsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsAPI.m; sourceTree = "<group>"; };
 		23DEC24B1800808A0061BAB1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		23DEC24D180080910061BAB1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		23DEC24F180082BE0061BAB1 /* QuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionCell.h; sourceTree = "<group>"; };
+		23DEC250180082BE0061BAB1 /* QuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionCell.m; sourceTree = "<group>"; };
 		23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerTests.m; sourceTree = "<group>"; };
 		569F3F7B04F74C03A7884792 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9258C2D34A486A9C0B4B2C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -240,6 +243,8 @@
 			isa = PBXGroup;
 			children = (
 				230C381D17F1200700E47250 /* Main.storyboard */,
+				23DEC24F180082BE0061BAB1 /* QuestionCell.h */,
+				23DEC250180082BE0061BAB1 /* QuestionCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 				230C381C17F1200700E47250 /* AppDelegate.m in Sources */,
 				230C382217F1200700E47250 /* MasterViewController.m in Sources */,
 				23DEC249180068130061BAB1 /* ItemsAPI.m in Sources */,
+				23DEC251180082BE0061BAB1 /* QuestionCell.m in Sources */,
 				23DEC23F1800597F0061BAB1 /* Question.m in Sources */,
 				23DEC245180059DE0061BAB1 /* Items.m in Sources */,
 				230C381817F1200700E47250 /* main.m in Sources */,

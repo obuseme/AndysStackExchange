@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "ItemsAPI.h"
 
-@interface MasterViewController : UIViewController <ItemsAPIDelegate>
+@interface MasterViewController : UIViewController <ItemsAPIDelegate> {
+    NSArray *items;
+}
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 

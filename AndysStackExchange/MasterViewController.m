@@ -11,9 +11,9 @@
 #import "DetailViewController.h"
 #import "AppDelegate.h"
 #import "Question.h"
+#import "QuestionCell.h"
 
 @interface MasterViewController () {
-    NSArray *items;
     ItemsAPI *itemsAPI;
 }
 @end
@@ -31,7 +31,17 @@
     itemsAPI.delegate = self;
     [itemsAPI loadItems];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(preferredContentSizeChanged:)
+                                                 name:UIContentSizeCategoryDidChangeNotification
+                                               object:nil];
+    
     [super viewDidLoad];
+}
+
+- (void) viewDidAppear:(BOOL)animated
+{
+    [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,12 +52,6 @@
 - (void) itemsLoaded:(NSArray *)pItems
 {
     items = pItems;
-    [self.tableView reloadData];
-}
-
-- (void) dataRefreshed:(NSNotification *) notification
-{
-    items = ((AppDelegate *)[UIApplication sharedApplication].delegate).posts;
     [self.tableView reloadData];
 }
 
@@ -63,20 +67,38 @@
     return [items count];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSString *titleString = [self getTitleForObject:items atIndex:indexPath.row];
+    UIFont *titleLabelFont =[UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    NSAttributedString *attributedText = [[NSAttributedString alloc] initWithString:titleString attributes:@{NSFontAttributeName: titleLabelFont}];
+    
+    //Ya, 272 as a hard coded width is bad here, consider improving to dynamically get the current width of the label in this orientation
+    CGRect rect = [attributedText boundingRectWithSize:(CGSize){272, CGFLOAT_MAX}
+                                               options:NSStringDrawingUsesLineFragmentOrigin
+                                               context:nil];
+
+    CGFloat PADDING_OUTER = 10;
+    CGFloat totalHeight = [self heightWithPadding:rect paddingToAdd:PADDING_OUTER];
+
+    return totalHeight;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    QuestionCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    cell.textLabel.text = [self getTitleForObject:items atIndex:indexPath.row];
+    [self configureLabelForTitle:cell.titleLabel atIndexPath:indexPath fromItems:items];
+    
     return cell;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
+        DetailViewController *dvc = [segue destinationViewController];
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        Question *q = items[indexPath.row];
-        [[segue destinationViewController] setQuestion:q];
+        [self prepareDetailControllerForSegue:dvc indexPath:indexPath questions:items];
     }
 }
 

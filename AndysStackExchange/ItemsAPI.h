@@ -22,5 +22,5 @@
 
 @protocol ItemsAPIDelegate <NSObject>
 @required
-- (void) itemsLoaded:(Items *)items;
+- (void) itemsLoaded:(NSArray *)items;
 @end

@@ -17,6 +17,22 @@
 
 @implementation DetailViewController
 
+
+- (void)viewDidLoad
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(preferredContentSizeChanged:)
+                                                 name:UIContentSizeCategoryDidChangeNotification
+                                               object:nil];
+    [self configureView];
+    
+    [super viewDidLoad];
+}
+
+- (void)preferredContentSizeChanged:(NSNotification *)notification {
+    self.titleLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+}
+
 #pragma mark - Managing the detail item
 
 - (void)setQuestion:(Question *)newQuestion
@@ -30,28 +46,18 @@
 
 - (void)configureView
 {
-    // Update the user interface for the detail item.
-
     if (self.question) {
-        self.detailDescriptionLabel.text = self.question.title;
-    }
-}
+        self.automaticallyAdjustsScrollViewInsets = NO;
+        self.titleLabel.text = self.question.title;
+        self.bodyLabel.text = self.question.body;
+        self.questionScoreLabel.text = self.question.score;
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    [self configureView];
+    }
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-}
-
-- (IBAction)snap:(id)sender
-{
-    UISnapBehavior *s = [[UISnapBehavior alloc] initWithItem:self.detailDescriptionLabel snapToPoint:self.view.center];
-    [a addBehavior:s];
 }
 
 @end

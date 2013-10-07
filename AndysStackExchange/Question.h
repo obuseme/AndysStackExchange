@@ -14,6 +14,8 @@
 
 @property (nonatomic, copy) NSString *questionID;
 @property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *body;
+@property (nonatomic, copy) NSString *score;
 
 + (RKObjectMapping *) objectMapping;
 
