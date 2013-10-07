@@ -1,6 +1,6 @@
 AndysStackExchange
 ==================
-Loads most recent stackoverflow questions tagged with “iphone.”  Allows the user to view details for a question including: who asked, the current score for the question, and the body of the question (markdown not rendered).  Additionally, a profile screen can be viewed which shows the associated user’s reputation.  The profile screen can be accessed from the Question Detail screen for the user who asked the question, and there’s also a link to view my profile from the main screen of the app.
+iPhone app that loads most recent stackoverflow questions tagged with “iphone.”  Allows the user to view details for a question including: who asked, the current score for the question, and the body of the question (markdown not rendered).  Additionally, a profile screen can be viewed which shows the associated user’s reputation.  The profile screen can be accessed from the Question Detail screen for the user who asked the question, and there’s also a link to view my profile from the main screen of the app.
 
 ## Current Features
 <ul>
