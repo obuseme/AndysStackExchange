@@ -134,15 +134,15 @@
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Asked by:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNL-ZL-nJX">
-                                        <rect key="frame" x="20" y="118" width="65" height="21"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asked by:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNL-ZL-nJX">
+                                        <rect key="frame" x="20" y="120" width="65" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQB-FC-jEw">
-                                        <rect key="frame" x="90" y="118" width="210" height="21"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQB-FC-jEw">
+                                        <rect key="frame" x="90" y="120" width="210" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                         <state key="normal" title="Button">
@@ -156,8 +156,10 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="hrO-30-MWI" secondAttribute="trailing" constant="20" id="1Uk-P8-gRv"/>
+                                    <constraint firstItem="XNL-ZL-nJX" firstAttribute="leading" secondItem="Lei-5M-9Gs" secondAttribute="leading" id="2NL-Ar-moy"/>
                                     <constraint firstAttribute="trailing" secondItem="Lei-5M-9Gs" secondAttribute="trailing" constant="20" id="4KY-TB-3nF"/>
                                     <constraint firstItem="UTT-cV-3f8" firstAttribute="top" secondItem="Lei-5M-9Gs" secondAttribute="bottom" constant="52" id="7iZ-P7-K9G"/>
+                                    <constraint firstItem="dQB-FC-jEw" firstAttribute="trailing" secondItem="Lei-5M-9Gs" secondAttribute="trailing" id="IpV-Uw-w1w"/>
                                     <constraint firstItem="dQB-FC-jEw" firstAttribute="leading" secondItem="XNL-ZL-nJX" secondAttribute="trailing" constant="5" id="LFi-sM-936"/>
                                     <constraint firstItem="UTT-cV-3f8" firstAttribute="top" secondItem="dQB-FC-jEw" secondAttribute="bottom" constant="15" id="MkQ-Vd-ezt"/>
                                     <constraint firstItem="UTT-cV-3f8" firstAttribute="top" secondItem="hrO-30-MWI" secondAttribute="top" id="NMo-Ep-2m5"/>
@@ -250,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UmN-ui-5Ff" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1394" y="43"/>
+            <point key="canvasLocation" x="864" y="861"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
