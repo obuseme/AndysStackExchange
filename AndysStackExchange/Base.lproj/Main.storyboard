@@ -31,7 +31,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="30" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Sex-0A-nOr">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="30" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Sex-0A-nOr">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -73,12 +73,12 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Sex-0A-nOr" secondAttribute="trailing" id="A2P-4d-ofY"/>
                             <constraint firstItem="Sex-0A-nOr" firstAttribute="leading" secondItem="5w9-Cb-y0f" secondAttribute="leading" id="FCR-RV-G7Q"/>
-                            <constraint firstAttribute="centerX" secondItem="Sex-0A-nOr" secondAttribute="centerX" id="IXg-Jw-F7B"/>
-                            <constraint firstAttribute="centerY" secondItem="Sex-0A-nOr" secondAttribute="centerY" id="JMu-jZ-nLX"/>
+                            <constraint firstAttribute="bottom" secondItem="Sex-0A-nOr" secondAttribute="bottom" id="UUx-ZJ-VBu"/>
+                            <constraint firstItem="Sex-0A-nOr" firstAttribute="top" secondItem="5w9-Cb-y0f" secondAttribute="top" id="w7w-Pf-mb4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Q5W-JO-jdL">
