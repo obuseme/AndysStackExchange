@@ -3,26 +3,32 @@ AndysStackExchange
 Loads most recent stackoverflow questions tagged with “iphone.”  Allows the user to view details for a question including: who asked, the current score for the question, and the body of the question (markdown not rendered).  Additionally, a profile screen can be viewed which shows the associated user’s reputation.  The profile screen can be accessed from the Question Detail screen for the user who asked the question, and there’s also a link to view my profile from the main screen of the app.
 
 ## Current Features
-Uses a Storyboard rather than a nib
-Uses RestKit (loaded from its cocoapod) to load questions tagged with “iphone” from stackoverflow
-Navigating into a question will also provide the opportunity to access the person’s profile who asked the question - this accesses another rest resource to load their details
-Uses iOS7 CoreText to dynamically size the cell rows and text on the List screen
-MasterViewControllerTests contains unit tests for the associate class
-Category MasterViewController+Private provides access to “private” MasterViewController methods to enable visibility for unit testing
-Use of OCMock to mock classes in unit tests
-Use of Delegate pattern to handle callback from ItemsAPI once items are loaded
+<ul>
+<li>Uses a Storyboard rather than a nib</li>
+<li>Uses RestKit (loaded from its cocoapod) to load questions tagged with “iphone” from stackoverflow</li>
+<li>Navigating into a question will also provide the opportunity to access the person’s profile who asked the question - this accesses another rest resource to load their details</li>
+<li>Uses iOS7 CoreText to dynamically size the cell rows and text on the List screen</li>
+<li>MasterViewControllerTests contains unit tests for the associate class</li>
+<li>Category MasterViewController+Private provides access to “private” MasterViewController methods to enable visibility for unit testing</li>
+<li>Use of OCMock to mock classes in unit tests</li>
+<li>Use of Delegate pattern to handle callback from ItemsAPI once items are loaded</li>
+</ul>
 
 ## What would my next features be?
-Investigate and integrate CoreData integration with RestKit usage
-Add ability for a stackoverflow user to login and take action - for now just vote on questions
-Improve AutoLayout usage across all screens to better layout views
-All pages should look better in landscape
-Add unit tests for other classes
-Provide ability for user to have control over which tags they view questions for
-Improve support for dynamically sized text on question detail screen and profile screen
+<ul>
+<li>Investigate and integrate CoreData integration with RestKit usage</li>
+<li>Add ability for a stackoverflow user to login and take action - for now just vote on questions</li>
+<li>Improve AutoLayout usage across all screens to better layout views</li>
+<li>All pages should look better in landscape</li>
+<li>Add unit tests for other classes</li>
+<li>Provide ability for user to have control over which tags they view questions for</li>
+<li>Improve support for dynamically sized text on question detail screen and profile screen</li>
+</ul>
 
 ## Known Issues
-UITableView on MasterViewController is only sized correctly on iPhone 5 and 5s
-UILabel for body text on DetailViewController is not given the correct height
-AutoLayout warnings that need to be resolved
-Width for UILabel in table cells on main page could be calculated more dynamically
+<ul>
+<li>UITableView on MasterViewController is only sized correctly on iPhone 5 and 5s</li>
+<li>UILabel for body text on DetailViewController is not given the correct height</li>
+<li>AutoLayout warnings that need to be resolved</li>
+<li>Width for UILabel in table cells on main page could be calculated more dynamically</li>
+</ul>
