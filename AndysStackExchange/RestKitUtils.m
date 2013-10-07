@@ -13,18 +13,12 @@
 
 @implementation RestKitUtils
 
-/**
- Initializes the shared RKObjectManager instance
- */
 + (void) initializeObjectManager
 {
     [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     
     NSURL *baseURL = [NSURL URLWithString:@"https://api.stackexchange.com"];
     AFHTTPClient* client = [[AFHTTPClient alloc] initWithBaseURL:baseURL];
-    
-    //we want to work with JSON-Data
-    [client setDefaultHeader:@"Accept" value:RKMIMETypeJSON];
     
     // Initialize RestKit
     RKObjectManager *objectManager = [[RKObjectManager alloc] initWithHTTPClient:client];

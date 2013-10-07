@@ -26,7 +26,6 @@
 		23AED89A17FE7A8C0039F02C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C382117F1200700E47250 /* MasterViewController.m */; };
 		23DEC23C180058080061BAB1 /* RestKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC23B180058080061BAB1 /* RestKitUtils.m */; };
 		23DEC23F1800597F0061BAB1 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC23E1800597F0061BAB1 /* Question.m */; };
-		23DEC245180059DE0061BAB1 /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC244180059DE0061BAB1 /* Items.m */; };
 		23DEC249180068130061BAB1 /* ItemsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC248180068130061BAB1 /* ItemsAPI.m */; };
 		23DEC24C1800808A0061BAB1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEC24B1800808A0061BAB1 /* SystemConfiguration.framework */; };
 		23DEC24E180080910061BAB1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DEC24D180080910061BAB1 /* MobileCoreServices.framework */; };
@@ -84,8 +83,6 @@
 		23DEC23B180058080061BAB1 /* RestKitUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestKitUtils.m; sourceTree = "<group>"; };
 		23DEC23D1800597F0061BAB1 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		23DEC23E1800597F0061BAB1 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
-		23DEC243180059DE0061BAB1 /* Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Items.h; sourceTree = "<group>"; };
-		23DEC244180059DE0061BAB1 /* Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Items.m; sourceTree = "<group>"; };
 		23DEC247180068130061BAB1 /* ItemsAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsAPI.h; sourceTree = "<group>"; };
 		23DEC248180068130061BAB1 /* ItemsAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsAPI.m; sourceTree = "<group>"; };
 		23DEC24B1800808A0061BAB1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -229,8 +226,6 @@
 			children = (
 				23DEC23D1800597F0061BAB1 /* Question.h */,
 				23DEC23E1800597F0061BAB1 /* Question.m */,
-				23DEC243180059DE0061BAB1 /* Items.h */,
-				23DEC244180059DE0061BAB1 /* Items.m */,
 				23DEC247180068130061BAB1 /* ItemsAPI.h */,
 				23DEC248180068130061BAB1 /* ItemsAPI.m */,
 				23DEC252180238750061BAB1 /* User.h */,
@@ -416,7 +411,6 @@
 				23DEC25718023BA70061BAB1 /* ProfileViewController.m in Sources */,
 				23DEC254180238750061BAB1 /* User.m in Sources */,
 				23DEC23F1800597F0061BAB1 /* Question.m in Sources */,
-				23DEC245180059DE0061BAB1 /* Items.m in Sources */,
 				230C381817F1200700E47250 /* main.m in Sources */,
 				230C382517F1200700E47250 /* DetailViewController.m in Sources */,
 			);

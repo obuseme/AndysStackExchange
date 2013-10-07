@@ -8,8 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ Convenience class with methods to help manage RestKit related things.
+ */
 @interface RestKitUtils : NSObject
 
+/**
+ Initializes the shared RKObjectManager instance
+ */
 + (void) initializeObjectManager;
 
 @end

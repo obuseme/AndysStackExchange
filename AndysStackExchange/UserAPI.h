@@ -12,6 +12,11 @@
 
 @protocol UserAPIDelegate;
 
+/**
+ Central API for interacting with the /users related REST resources on the stackoverflow API
+ 
+ https://api.stackexchange.com/docs/users
+ */
 @interface UserAPI : NSObject
 
 @property (weak) id<UserAPIDelegate> delegate;
@@ -27,5 +32,10 @@
 
 @protocol UserAPIDelegate <NSObject>
 @required
+/**
+ Message sent to the delegate once the user information has loaded.
+ 
+ @param The user that was loaded
+ */
 - (void) userLoaded:(User *)user;
 @end
