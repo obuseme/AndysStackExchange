@@ -19,6 +19,7 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *bodyLabel;
+@property (strong, nonatomic) IBOutlet UITextView *bodyTextView;
 @property (strong, nonatomic) IBOutlet UILabel *questionScoreLabel;
 @property (strong, nonatomic) IBOutlet UIButton *ownerButton;
 

@@ -54,6 +54,8 @@
         self.titleLabel.text = self.question.title;
         self.bodyLabel.text = self.question.body;
         self.bodyLabel.preferredMaxLayoutWidth = 215;
+        self.bodyTextView.text = self.question.body;
+        
         self.questionScoreLabel.text = self.question.score;
         [self.ownerButton setTitle:self.question.owner.displayName forState:UIControlStateNormal];
     }
