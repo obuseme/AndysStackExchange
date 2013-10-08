@@ -36,6 +36,8 @@
 		23DEC25B18023DDD0061BAB1 /* UserAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC25A18023DDD0061BAB1 /* UserAPI.m */; };
 		23DEC25C18023DDD0061BAB1 /* UserAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC25A18023DDD0061BAB1 /* UserAPI.m */; };
 		23EE25B817FE5F060089E551 /* MasterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */; };
+		23EEB82118038F49001C96AF /* UserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EEB82018038F49001C96AF /* UserTests.m */; };
+		23EEB82318039178001C96AF /* QuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EEB82218039178001C96AF /* QuestionTests.m */; };
 		38383C6847354D6E809C4BF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 569F3F7B04F74C03A7884792 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +98,8 @@
 		23DEC25918023DDD0061BAB1 /* UserAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAPI.h; sourceTree = "<group>"; };
 		23DEC25A18023DDD0061BAB1 /* UserAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAPI.m; sourceTree = "<group>"; };
 		23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerTests.m; sourceTree = "<group>"; };
+		23EEB82018038F49001C96AF /* UserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTests.m; sourceTree = "<group>"; };
+		23EEB82218039178001C96AF /* QuestionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTests.m; sourceTree = "<group>"; };
 		569F3F7B04F74C03A7884792 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9258C2D34A486A9C0B4B2C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +197,9 @@
 			isa = PBXGroup;
 			children = (
 				23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */,
+				23EEB82018038F49001C96AF /* UserTests.m */,
 				230C383417F1200700E47250 /* Supporting Files */,
+				23EEB82218039178001C96AF /* QuestionTests.m */,
 			);
 			path = AndysStackExchangeTests;
 			sourceTree = "<group>";
@@ -422,7 +428,9 @@
 			files = (
 				23AED89A17FE7A8C0039F02C /* MasterViewController.m in Sources */,
 				23EE25B817FE5F060089E551 /* MasterViewControllerTests.m in Sources */,
+				23EEB82118038F49001C96AF /* UserTests.m in Sources */,
 				23DEC25818023BA70061BAB1 /* ProfileViewController.m in Sources */,
+				23EEB82318039178001C96AF /* QuestionTests.m in Sources */,
 				23DEC25C18023DDD0061BAB1 /* UserAPI.m in Sources */,
 				2307685E17FF0ED000C5FB9A /* MasterViewController+private.m in Sources */,
 			);
