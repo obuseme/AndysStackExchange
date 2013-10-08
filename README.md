@@ -8,6 +8,7 @@ Universal iOS app that loads most recent stackoverflow questions tagged with “
 <li>Uses RestKit (loaded from its cocoapod) to load questions tagged with “iphone” from stackoverflow</li>
 <li>Navigating into a question will also provide the opportunity to access the person’s profile who asked the question - this accesses another rest resource to load their details</li>
 <li>Uses iOS7 CoreText to dynamically size the cell rows and text on the List screen</li>
+<ul><li>Implements the Observer pattern through use of NSNotification API to listen for `UIContentSizeCategoryDidChangeNotification`</li></ul>
 <li>MasterViewControllerTests contains unit tests for the associate class</li>
 <li>Category MasterViewController+Private provides access to “private” MasterViewController methods to enable visibility for unit testing</li>
 <li>Use of OCMock to mock classes in unit tests</li>
