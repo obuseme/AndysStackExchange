@@ -19,4 +19,6 @@
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
+- (void) loadItems;
+
 @end

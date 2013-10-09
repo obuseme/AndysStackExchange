@@ -30,7 +30,7 @@
 {
     itemsAPI = [[ItemsAPI alloc] init];
     itemsAPI.delegate = self;
-    [itemsAPI loadItems];
+    [self loadItems];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(preferredContentSizeChanged:)
@@ -48,6 +48,13 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+}
+
+- (void) loadItems
+{
+    if (itemsAPI) {
+        [itemsAPI loadItems];
+    }
 }
 
 - (void) itemsLoaded:(NSArray *)pItems

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "RestKitUtils.h"
+#import "MasterViewController.h"
+#import "StackExchangeAuthenticator.h"
 
 @implementation AppDelegate
 
@@ -15,7 +17,29 @@
 {
     [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
     [RestKitUtils initializeObjectManager];
-    
+    self.mvc = (MasterViewController *)((UINavigationController *)self.window.rootViewController).topViewController;
+    [[StackExchangeAuthenticator sharedAuthenticator] authenticate:^(NSString *accessToken, NSString *error, NSString *errorDescription) {
+        if (accessToken == nil) {
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error authenticating"
+                                                            message:errorDescription
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
+        else {
+            NSLog(@"successfully auth'd");
+        }
+    }];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
+{
+    NSLog(@"hi");
     return YES;
 }
 							
@@ -49,7 +73,7 @@
 
 - (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler
 {
-    [self loadData:completionHandler];
+    [self.mvc loadItems];
     completionHandler(UIBackgroundFetchResultNoData);
     NSLog(@"Performed fetch at %@", [NSDate date]);
 }
@@ -74,7 +98,6 @@
     
                             [[NSNotificationCenter defaultCenter] postNotificationName:@"DataRefreshed" object:nil];
                             
-                            [UIApplication sharedApplication].applicationIconBadgeNumber = 1;
                             
                             if (completionHandler) completionHandler(UIBackgroundFetchResultNewData);
                         }] resume];

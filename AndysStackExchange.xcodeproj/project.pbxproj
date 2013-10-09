@@ -38,6 +38,7 @@
 		23EE25B817FE5F060089E551 /* MasterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */; };
 		23EEB82118038F49001C96AF /* UserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EEB82018038F49001C96AF /* UserTests.m */; };
 		23EEB82318039178001C96AF /* QuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EEB82218039178001C96AF /* QuestionTests.m */; };
+		23EEB8281804D3F2001C96AF /* StackExchangeAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EEB8271804D3F2001C96AF /* StackExchangeAuthenticator.m */; };
 		38383C6847354D6E809C4BF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 569F3F7B04F74C03A7884792 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,9 @@
 		23EE25B717FE5F060089E551 /* MasterViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerTests.m; sourceTree = "<group>"; };
 		23EEB82018038F49001C96AF /* UserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTests.m; sourceTree = "<group>"; };
 		23EEB82218039178001C96AF /* QuestionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTests.m; sourceTree = "<group>"; };
+		23EEB8261804D3F2001C96AF /* StackExchangeAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackExchangeAuthenticator.h; sourceTree = "<group>"; };
+		23EEB8271804D3F2001C96AF /* StackExchangeAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackExchangeAuthenticator.m; sourceTree = "<group>"; };
+		23EEB8291804D7B4001C96AF /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		569F3F7B04F74C03A7884792 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9258C2D34A486A9C0B4B2C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +180,9 @@
 				230C381B17F1200700E47250 /* AppDelegate.m */,
 				23DEC23A180058080061BAB1 /* RestKitUtils.h */,
 				23DEC23B180058080061BAB1 /* RestKitUtils.m */,
+				23EEB8291804D7B4001C96AF /* Constants.h */,
+				23EEB8261804D3F2001C96AF /* StackExchangeAuthenticator.h */,
+				23EEB8271804D3F2001C96AF /* StackExchangeAuthenticator.m */,
 				230C382617F1200700E47250 /* Images.xcassets */,
 				230C381217F1200700E47250 /* Supporting Files */,
 			);
@@ -418,6 +425,7 @@
 				23DEC254180238750061BAB1 /* User.m in Sources */,
 				23DEC23F1800597F0061BAB1 /* Question.m in Sources */,
 				230C381817F1200700E47250 /* main.m in Sources */,
+				23EEB8281804D3F2001C96AF /* StackExchangeAuthenticator.m in Sources */,
 				230C382517F1200700E47250 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
