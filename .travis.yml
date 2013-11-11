@@ -1,2 +1,4 @@
 language: objective-c
-script: xcodebuild -scheme AndysStackExchange -workspace AndysStackExchange.xcworkspace -sdk iphonesimulator ONLY_ACTIVE_ARCH=YES
+script:
+  - xcodebuild -scheme AndysStackExchange -workspace AndysStackExchange.xcworkspace -sdk iphonesimulator ONLY_ACTIVE_ARCH=YES
+  - xcodebuild test -scheme AndysStackExchangeTest -workspace AndysStackExchange.xcworkspace -sdk iphonesimulator
