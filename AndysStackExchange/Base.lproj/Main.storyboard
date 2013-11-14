@@ -148,7 +148,11 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="answerCountLabel" destination="qwd-wV-8gm" id="TZN-aB-Xjf"/>
+                                            <outlet property="bodyLabel" destination="F9V-oi-XBy" id="fHZ-se-UU2"/>
+                                            <outlet property="scoreLabel" destination="sxK-18-JKd" id="oH2-Bp-F4y"/>
                                             <outlet property="titleLabel" destination="Ieh-jj-20U" id="4ji-EK-cTS"/>
+                                            <outlet property="viewCountLabel" destination="d2W-mg-ckt" id="yMo-R4-Otn"/>
                                             <segue destination="Ah7-4n-0Wa" kind="push" identifier="showDetail" id="p95-Fj-fY8"/>
                                         </connections>
                                     </tableViewCell>

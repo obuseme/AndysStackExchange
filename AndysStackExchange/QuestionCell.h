@@ -11,5 +11,9 @@
 @interface QuestionCell : UITableViewCell
 
 @property (nonatomic, strong) IBOutlet UILabel *titleLabel;
+@property (nonatomic, strong) IBOutlet UILabel *bodyLabel;
+@property (nonatomic, strong) IBOutlet UILabel *scoreLabel;
+@property (nonatomic, strong) IBOutlet UILabel *answerCountLabel;
+@property (nonatomic, strong) IBOutlet UILabel *viewCountLabel;
 
 @end

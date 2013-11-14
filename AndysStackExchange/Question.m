@@ -19,7 +19,9 @@
                                                           @"question_id" : @"questionID",
                                                           @"title" : @"title",
                                                           @"body" : @"body",
-                                                          @"score": @"score",
+                                                          @"score" : @"score",
+                                                          @"answer_count" : @"answerCount",
+                                                          @"view_count" : @"viewCount",
                                                           }];
     return questionMapping;
 }

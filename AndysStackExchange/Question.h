@@ -43,6 +43,16 @@
 @property (nonatomic, strong) User *owner;
 
 /**
+ The number of answers provided for this question
+ */
+@property (nonatomic, strong) NSString *answerCount;
+
+/**
+ The number of views this question has had
+ */
+@property (nonatomic, strong) NSString *viewCount;
+
+/**
  Provides the `RKObjectMapping` for mapping the REST resource through RestKit
  */
 + (RKObjectMapping *) objectMapping;

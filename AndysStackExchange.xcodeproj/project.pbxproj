@@ -24,6 +24,8 @@
 		230C383817F1200700E47250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 230C383617F1200700E47250 /* InfoPlist.strings */; };
 		23AED89917FE66930039F02C /* MasterViewController+private.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AED89817FE66930039F02C /* MasterViewController+private.m */; };
 		23AED89A17FE7A8C0039F02C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C382117F1200700E47250 /* MasterViewController.m */; };
+		23C6681C18356D3A0040D629 /* QuestionCell+Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C6681B18356D3A0040D629 /* QuestionCell+Question.m */; };
+		23C6681E18356D7D0040D629 /* QuestionCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C6681D18356D7D0040D629 /* QuestionCellTests.m */; };
 		23DEC23C180058080061BAB1 /* RestKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC23B180058080061BAB1 /* RestKitUtils.m */; };
 		23DEC23F1800597F0061BAB1 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC23E1800597F0061BAB1 /* Question.m */; };
 		23DEC249180068130061BAB1 /* ItemsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DEC248180068130061BAB1 /* ItemsAPI.m */; };
@@ -81,6 +83,9 @@
 		23AED89517FE648A0039F02C /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		23AED89717FE66930039F02C /* MasterViewController+private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MasterViewController+private.h"; sourceTree = "<group>"; };
 		23AED89817FE66930039F02C /* MasterViewController+private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MasterViewController+private.m"; sourceTree = "<group>"; };
+		23C6681A18356D3A0040D629 /* QuestionCell+Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuestionCell+Question.h"; sourceTree = "<group>"; };
+		23C6681B18356D3A0040D629 /* QuestionCell+Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuestionCell+Question.m"; sourceTree = "<group>"; };
+		23C6681D18356D7D0040D629 /* QuestionCellTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionCellTests.m; sourceTree = "<group>"; };
 		23DEC23A180058080061BAB1 /* RestKitUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestKitUtils.h; sourceTree = "<group>"; };
 		23DEC23B180058080061BAB1 /* RestKitUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestKitUtils.m; sourceTree = "<group>"; };
 		23DEC23D1800597F0061BAB1 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
@@ -200,6 +205,7 @@
 				23EEB82018038F49001C96AF /* UserTests.m */,
 				230C383417F1200700E47250 /* Supporting Files */,
 				23EEB82218039178001C96AF /* QuestionTests.m */,
+				23C6681D18356D7D0040D629 /* QuestionCellTests.m */,
 			);
 			path = AndysStackExchangeTests;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 				230C381D17F1200700E47250 /* Main.storyboard */,
 				23DEC24F180082BE0061BAB1 /* QuestionCell.h */,
 				23DEC250180082BE0061BAB1 /* QuestionCell.m */,
+				23C6681A18356D3A0040D629 /* QuestionCell+Question.h */,
+				23C6681B18356D3A0040D629 /* QuestionCell+Question.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -414,6 +422,7 @@
 				230C382217F1200700E47250 /* MasterViewController.m in Sources */,
 				23DEC249180068130061BAB1 /* ItemsAPI.m in Sources */,
 				23DEC251180082BE0061BAB1 /* QuestionCell.m in Sources */,
+				23C6681C18356D3A0040D629 /* QuestionCell+Question.m in Sources */,
 				23DEC25718023BA70061BAB1 /* ProfileViewController.m in Sources */,
 				23DEC254180238750061BAB1 /* User.m in Sources */,
 				23DEC23F1800597F0061BAB1 /* Question.m in Sources */,
@@ -427,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23AED89A17FE7A8C0039F02C /* MasterViewController.m in Sources */,
+				23C6681E18356D7D0040D629 /* QuestionCellTests.m in Sources */,
 				23EE25B817FE5F060089E551 /* MasterViewControllerTests.m in Sources */,
 				23EEB82118038F49001C96AF /* UserTests.m in Sources */,
 				23DEC25818023BA70061BAB1 /* ProfileViewController.m in Sources */,

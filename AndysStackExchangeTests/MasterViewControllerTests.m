@@ -95,7 +95,7 @@
     [toTest configureLabelForTitle:aLabel atIndexPath:indexPath fromItems:listOfQs];
     NSLog(@"aLabel.text=%@", aLabel.text);
     XCTAssertTrue([aTitle isEqualToString:aLabel.text], @"Label text and title strings should be the same");
-    XCTAssertEqual(aLabel.font, [UIFont preferredFontForTextStyle:UIFontTextStyleBody], @"Font should be Body in order to match what is specified in IB");
+    XCTAssertEqual(aLabel.font, [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline], @"Font should be Headline in order to match what is specified in IB");
 }
 
 - (void) testNumberOfRowsInSection

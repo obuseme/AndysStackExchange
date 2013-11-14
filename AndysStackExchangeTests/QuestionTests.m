@@ -30,8 +30,8 @@
 
 - (void)testObjectMapping
 {
-    NSArray *sourceKeyPaths = @[@"question_id", @"title", @"body", @"score"];
-    NSArray *destinationKeyPaths = @[@"questionID", @"title", @"body", @"score"];
+    NSArray *sourceKeyPaths = @[@"question_id", @"title", @"body", @"score", @"answer_count", @"view_count"];
+    NSArray *destinationKeyPaths = @[@"questionID", @"title", @"body", @"score", @"answerCount", @"viewCount"];
     RKObjectMapping *mapping = [Question objectMapping];
     NSArray *mappings = mapping.propertyMappings;
     for (RKPropertyMapping *mapping in mappings) {
