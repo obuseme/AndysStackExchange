@@ -95,8 +95,7 @@
 {
     QuestionCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    [self configureLabelForTitle:cell.titleLabel atIndexPath:indexPath fromItems:items];
-    
+    [self configureCell:cell atIndexPath:indexPath fromObjects:items];
     return cell;
 }
 

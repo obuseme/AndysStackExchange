@@ -9,6 +9,7 @@
 #import "MasterViewController+private.h"
 #import "Question.h"
 #import "DetailViewController.h"
+#import "QuestionCell+Question.h"
 
 @implementation MasterViewController (private)
 
@@ -41,6 +42,12 @@
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification {
     [self.tableView reloadData];
+}
+
+- (void) configureCell:(QuestionCell *)cell atIndexPath:(NSIndexPath *)indexPath fromObjects:(NSArray *)objects
+{
+    Question *aQ = objects[indexPath.row];
+    [cell updateWithQuestion:aQ];
 }
 
 @end

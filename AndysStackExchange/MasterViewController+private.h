@@ -8,7 +8,7 @@
 
 #import "MasterViewController.h"
 
-@class DetailViewController;
+@class DetailViewController, QuestionCell;
 
 /**
  Pseudo-private methods for the MasterViewController.  Provided through this header and implementation to support unit testing.
@@ -51,5 +51,13 @@
  Method called when user changes their preferred font size in iOS7 settings.  Does the necessary stuff to make the view look correct.
  */
 - (void) preferredContentSizeChanged:(NSNotification *)notification;
+
+/**
+ Method to populate the QuestionCell at the specified indexPath
+ @param cell The `QuestionCell` to populate
+ @param indexPath The indexPath in the `UITableView` to populate the cell for
+ @param objects The items to populate the cell from
+ */
+- (void) configureCell:(QuestionCell *)cell atIndexPath:(NSIndexPath *)indexPath fromObjects:objects;
 
 @end

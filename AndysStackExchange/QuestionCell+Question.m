@@ -17,7 +17,7 @@
     self.bodyLabel.text = question.body;
     self.scoreLabel.text = question.score;
     self.answerCountLabel.text = question.answerCount;
-    self.viewCountLabel.text = question.viewCount;
+    self.viewCountLabel.text = [NSString stringWithFormat:@"%@ views", question.viewCount];
 }
 
 @end

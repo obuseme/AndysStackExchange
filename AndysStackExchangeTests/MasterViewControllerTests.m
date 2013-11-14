@@ -12,6 +12,7 @@
 #import "OCMock.h"
 #import "Question.h"
 #import "DetailViewController.h"
+#import "QuestionCell+Question.h"
 
 @interface MasterViewControllerTests : XCTestCase {
     MasterViewController *toTest;
@@ -132,6 +133,48 @@
     NSArray *listOfQs = @[aQ];
     [toTest itemsLoaded:listOfQs];
     XCTAssertEqual(listOfQs, [toTest getItems], @"Items provided do not match those on the controller");
+}
+
+- (void) testConfigureCell
+{
+    QuestionCell *cell = [[QuestionCell alloc] init];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    Question *aQ = [[Question alloc] init];
+    
+    UILabel *titleLabel = [[UILabel alloc] init];
+    cell.titleLabel = titleLabel;
+    NSString *aTitle = @"aTitle";
+    aQ.title = aTitle;
+    
+    UILabel *bodyLabel = [[UILabel alloc] init];
+    cell.bodyLabel = bodyLabel;
+    NSString *aBody = @"aBody";
+    aQ.body = aBody;
+    
+    UILabel *scoreLabel = [[UILabel alloc] init];
+    cell.scoreLabel = scoreLabel;
+    NSString *aScore = @"aScore";
+    aQ.score = aScore;
+    
+    UILabel *answerCountLabel = [[UILabel alloc] init];
+    cell.answerCountLabel = answerCountLabel;
+    NSString *aAnswerCount = @"aAnswerCount";
+    aQ.answerCount = aAnswerCount;
+    
+    UILabel *viewCountLabel = [[UILabel alloc] init];
+    cell.viewCountLabel = viewCountLabel;
+    NSString *aViewCount = @"aViewCount";
+    aQ.viewCount = aViewCount;
+    
+    NSArray *listOfQs = @[aQ];
+    
+    [toTest configureCell:cell atIndexPath:indexPath fromObjects:listOfQs];
+    
+    XCTAssertTrue([aTitle isEqualToString:cell.titleLabel.text], @"");
+    XCTAssertTrue([aBody isEqualToString:cell.bodyLabel.text], @"");
+    XCTAssertTrue([aScore isEqualToString:cell.scoreLabel.text], @"");
+    XCTAssertTrue([aAnswerCount isEqualToString:cell.answerCountLabel.text], @"");
+    XCTAssertTrue([aViewCount isEqualToString:cell.viewCountLabel.text], @"");
 }
 
 @end
