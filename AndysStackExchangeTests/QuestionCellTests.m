@@ -26,7 +26,7 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testUpdateWithQuestion
 {
     QuestionCell *toTest = [[QuestionCell alloc] init];
     Question *aQuestion = [[Question alloc] init];
@@ -55,14 +55,16 @@
     toTest.viewCountLabel = viewCountLabel;
     NSString *aViewCount = @"aViewCount";
     aQuestion.viewCount = aViewCount;
+    NSString *formattedViewCount= [NSString stringWithFormat:@"%@ views", aViewCount];
 
     [toTest updateWithQuestion:aQuestion];
+    
 
     XCTAssertTrue([aTitle isEqualToString:toTest.titleLabel.text], @"");
     XCTAssertTrue([aBody isEqualToString:toTest.bodyLabel.text], @"");
     XCTAssertTrue([aScore isEqualToString:toTest.scoreLabel.text], @"");
     XCTAssertTrue([aAnswerCount isEqualToString:toTest.answerCountLabel.text], @"");
-    XCTAssertTrue([aViewCount isEqualToString:toTest.viewCountLabel.text], @"");
+    XCTAssertTrue([formattedViewCount isEqualToString:toTest.viewCountLabel.text], @"");
 }
 
 @end

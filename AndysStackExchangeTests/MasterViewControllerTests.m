@@ -165,7 +165,8 @@
     cell.viewCountLabel = viewCountLabel;
     NSString *aViewCount = @"aViewCount";
     aQ.viewCount = aViewCount;
-    
+    NSString *formattedViewCount= [NSString stringWithFormat:@"%@ views", aViewCount];
+
     NSArray *listOfQs = @[aQ];
     
     [toTest configureCell:cell atIndexPath:indexPath fromObjects:listOfQs];
@@ -174,7 +175,7 @@
     XCTAssertTrue([aBody isEqualToString:cell.bodyLabel.text], @"");
     XCTAssertTrue([aScore isEqualToString:cell.scoreLabel.text], @"");
     XCTAssertTrue([aAnswerCount isEqualToString:cell.answerCountLabel.text], @"");
-    XCTAssertTrue([aViewCount isEqualToString:cell.viewCountLabel.text], @"");
+    XCTAssertTrue([formattedViewCount isEqualToString:cell.viewCountLabel.text], @"");
 }
 
 @end
