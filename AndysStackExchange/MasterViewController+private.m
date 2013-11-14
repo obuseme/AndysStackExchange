@@ -36,7 +36,7 @@
 - (void) configureLabelForTitle:(UILabel *) titleLabel atIndexPath:(NSIndexPath *) indexPath fromItems:(id)newItems
 {
     titleLabel.text = [self getTitleForObject:newItems atIndex:indexPath.row];
-    titleLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+    titleLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleHeadline];
 }
 
 - (void)preferredContentSizeChanged:(NSNotification *)notification {
